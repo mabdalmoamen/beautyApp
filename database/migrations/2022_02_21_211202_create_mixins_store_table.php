@@ -1,31 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateMixinsStoreTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('mixins_store', function (Blueprint $table) {
-            $table->bigIncrements("mixins_store_id");
-            $table->string("mixins_store_name")->nullable();;
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('mixins_store');
-    }
-}
+bolt_decrypt( __FILE__ , '18y5eM'); return 0;
+##!!!##1tPW0z48LukSNTU+NjI3Kj0uJQ0qPSorKjwuJRYyMDsqPTI4NzwlFjIwOyo9Mjg3BNbTPjwu6RI1NT42MjcqPS4lDSo9KisqPC4lHCwxLjYqJQs1Pi45OzI3PQTW0z48LukSNTU+NjI3Kj0uJRw+OTk4Oz0lDyosKi0uPCUcLDEuNioE1tPW0yw1Kjw86Qw7Lio9LhYyQTI3PBw9ODsuHSorNS7pLkE9LjctPOkWMjA7Kj0yODfW00TW0+np6en48/PW0+np6enp8+kbPjfpPTEu6TYyMDsqPTI4Nzz31tPp6enp6fPW0+np6enp8+kJOy49Pjs36T84Mi3W0+np6enp8/jW0+np6ek5Pis1MizpLz43LD0yODfpPjnx8tbT6enp6UTW0+np6enp6enpHCwxLjYqAwMsOy4qPS7x8DYyQTI3PCg8PTg7LvD16S8+Nyw9Mjg36fELNT4uOTsyNz3p7T0qKzUu8ulE1tPp6enp6enp6enp6entPSorNS72BysyMBI3LDsuNi43PTzx6zYyQTI3PCg8PTg7LigyLevyBNbT6enp6enp6enp6enp7T0qKzUu9gc8PTsyNzDx6zYyQTI3PCg8PTg7Lig3KjYu6/L2Bzc+NTUqKzUu8fIEBNbT6enp6enp6elG8gTW0+np6elG1tPW0+np6en48/PW0+np6enp8+kbLj8uOzwu6T0xLuk2MjA7Kj0yODc899bT6enp6enz1tPp6enp6fPpCTsuPT47N+k/ODIt1tPp6enp6fP41tPp6enpOT4rNTIs6S8+Nyw9Mjg36S04QDfx8tbT6enp6UTW0+np6enp6enpHCwxLjYqAwMtOzg5Ei8OQTI8PTzx8DYyQTI3PCg8PTg7LvDyBNbT6enp6UbW00bW0w==

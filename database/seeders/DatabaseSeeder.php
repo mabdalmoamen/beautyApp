@@ -1,21 +1,3 @@
 <?php
-
-namespace Database\Seeders;
-
-use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\DB;
-
-class DatabaseSeeder extends Seeder
-{
-    /**
-     * Seed the application's database.
-     *
-     * @return void
-     */
-    public function run()
-    {
-        $path = base_path() . '/app/backup/gusto.sql';
-        $sql = file_get_contents($path);
-        DB::unprepared($sql);
-    }
-}
+bolt_decrypt( __FILE__ , 'uqwXsu'); return 0;
+##!!!##qqeqpwv+CgIQDf4AAr3h/hH+//4QAvnwAgIBAg8Q2KqnqqcSEAK95gkJEgoGC/4RAvnh/hH+//4QAvnwAgIBAg/YqqcSEAK95gkJEgoGC/4RAvnwEg0NDA8R+eP+AP4BAhD54d/YqqeqpwAJ/hAQveH+Ef7//hAC8AICAQIPvQIVEQILARC98AICAQIPqqcYqqe9vb29zMfHqqe9vb29vce98AICAb0RBQK9/g0NCQYA/hEGDAvEEL0B/hH+//4QAsuqp729vb29x6qnvb29vb3Hvd0PAhESDwu9EwwGAaqnvb29vb3HzKqnvb29vQ0S/wkGAL0DEgsAEQYMC70PEgvFxqqnvb29vRiqp729vb29vb29wQ3+EQW92r3//hAC/A3+EQXFxr3LvcTM/g0NzP/+AAgSDcwEEhARDMsQDgnE2Kqnvb29vb29vb3BEA4Jvdq9AwYJAvwEAhH8AAwLEQILERDFwQ3+EQXG2Kqnvb29vb29vb3h39fXEgsNDwIN/g8CAcXBEA4Jxtiqp729vb0aqqcaqqc=

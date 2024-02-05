@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateCurrenciesTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('currencies', function (Blueprint $table) {
-            $table->id();
-            $table->string('currency_ar')->nullable();;
-            $table->string('currency_en')->nullable();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('currencies');
-    }
-}
+bolt_decrypt( __FILE__ , 'bE1EgQ'); return 0;
+##!!!##4t/i30pIOvUeQUFKQj5DNkk6MRk2STY3Nkg6MSI+PEc2ST5EQ0gxIj48RzZJPkRDEOLfSkg69R5BQUpCPkM2SToxGTZJNjc2SDoxKDg9OkI2MRdBSjpFRz5DSRDi30pIOvUeQUFKQj5DNkk6MShKRUVER0kxGzY4Njk6SDEoOD06QjYQ4t/i3zhBNkhI9RhHOjZJOhhKR0c6Qzg+OkgpNjdBOvU6TUk6QzlI9SI+PEc2ST5EQ+LfUOLf9fX19QT//+Lf9fX19fX/9SdKQ/VJPTr1Qj48RzZJPkRDSAPi3/X19fX1/+Lf9fX19fX/9RVHOklKR0P1S0Q+OeLf9fX19fX/BOLf9fX19UVKN0E+OPU7SkM4ST5EQ/VKRf3+4t/19fX1UOLf9fX19fX19fUoOD06QjYPDzhHOjZJOv38OEpHRzpDOD46SPwB9TtKQzhJPkRD9f0XQUo6RUc+Q0n1+Uk2N0E6/vVQ4t/19fX19fX19fX19fX5STY3QToCEz45/f4Q4t/19fX19fX19fX19fX5STY3QToCE0hJRz5DPP38OEpHRzpDOE40Nkf8/gITQ0pBQTY3QTr9/hAQ4t/19fX19fX19fX19fX5STY3QToCE0hJRz5DPP38OEpHRzpDOE40OkP8/gITQ0pBQTY3QTr9/hDi3/X19fX19fX1Uv4Q4t/19fX1UuLf4t/19fX1BP//4t/19fX19f/1JzpLOkdIOvVJPTr1Qj48RzZJPkRDSAPi3/X19fX1/+Lf9fX19fX/9RVHOklKR0P1S0Q+OeLf9fX19fX/BOLf9fX19UVKN0E+OPU7SkM4ST5EQ/U5RExD/f7i3/X19fVQ4t/19fX19fX19Sg4PTpCNg8POUdERR47Gk0+SElI/fw4SkdHOkM4PjpI/P4Q4t/19fX1UuLfUuLf

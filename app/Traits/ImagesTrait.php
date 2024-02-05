@@ -1,20 +1,3 @@
 <?php
-
-namespace  App\Traits;
-
-use Image;
-
-trait ImagesTrait
-{
-    public function UploadImage($img, $path)
-    {
-        $position = strpos($img, ';');
-        $sub = substr($img, 0, $position);
-        $ext = explode('/', $sub)[1];
-        $name = time() . "." . $ext;
-        $img = Image::make($img)->resize(240, 200);
-        $image_url = $path . $name;
-        $img->save($image_url);
-        return $image_url;
-    }
-}
+bolt_decrypt( __FILE__ , 'SlMNfY'); return 0;
+##!!!##JiMmI4d6hn6MiXp8fjk5WomJdW2LeoKNjFQmIyYjjox+OWKGeoB+VCYjJiONi3qCjTlihnqAfoxti3qCjSYjlCYjOTk5OYmOe4WCfDl/jod8jYKIhzluiYWIen1ihnqAfkE9goaARTk9iXqNgUImIzk5OTmUJiM5OTk5OTk5OT2JiIyCjYKIhzlWOYyNi4mIjEE9goaARTlAVEBCVCYjOTk5OTk5OTk9jI57OVY5jI57jI2LQT2ChoBFOUlFOT2JiIyCjYKIh0JUJiM5OTk5OTk5OT1+kY05Vjl+kYmFiH1+QUBIQEU5PYyOe0J0SnZUJiM5OTk5OTk5OT2HeoZ+OVY5jYKGfkFCOUc5O0c7OUc5PX6RjVQmIzk5OTk5OTk5PYKGgDlWOWKGeoB+U1OGeoR+QT2ChoBCRleLfoyCk35BS01JRTlLSUlCVCYjOTk5OTk5OTk9goZ6gH54jouFOVY5PYl6jYE5Rzk9h3qGflQmIzk5OTk5OTk5PYKGgEZXjHqPfkE9goZ6gH54jouFQlQmIzk5OTk5OTk5i36NjouHOT2ChnqAfniOi4VUJiM5OTk5liYjliYj

@@ -1,28 +1,3 @@
 <?php
-namespace App\Http\Controllers\Exporters;
-use App\Http\Controllers\Exporters\UsersExport ;
-use Maatwebsite\Excel\Excel;
-
-class ExportController
-{
-    private $excel;
-
-    public function __construct(Excel $excel)
-    {
-        $this->excel = $excel;
-    }
-
-    public function exportViaConstructorInjection()
-    {
-        return $this->excel->download(new UsersExport, 'users.xlsx');
-    }
-
-    public function exportViaMethodInjection(Excel $excel)
-    {
-
-        return $excel->download(new UsersExport, 'users.xlsx',
-        [
-            'Content-Type' => 'application/vnd.ms-excel',
-            'Content-Disposition' => "attachment"]);
-    }
-}
+bolt_decrypt( __FILE__ , 'VlBfjG'); return 0;
+##!!!##KCWJfIiAjot8foA7XIuLd2OPj4t3XoqJj42Kh4eAjY53YJOLio2PgI2OViglkI6AO1yLi3djj4+Ld16KiY+NioeHgI2Od2CTi4qNj4CNjndwjoCNjmCTi4qNjztWKCWQjoA7aHx8j5KAfY6Ej4B3YJN+gId3YJN+gIdWKCUoJX6HfI6OO2CTi4qNj16KiY+NioeHgI0oJZYoJTs7OzuLjYSRfI+AOz+Ak36Ah1YoJSglOzs7O4uQfYeEfjuBkIl+j4SKiTt6en6KiY6PjZB+j0Ngk36Ahzs/gJN+gIdEKCU7Ozs7liglOzs7Ozs7Ozs/j4OEjkhZgJN+gIc7WDs/gJN+gIdWKCU7Ozs7mCglKCU7Ozs7i5B9h4R+O4GQiX6PhIqJO4CTi4qNj3GEfF6KiY6PjZB+j4qNZImFgH6PhIqJQ0QoJTs7OzuWKCU7Ozs7Ozs7O42Aj5CNiTs/j4OEjkhZgJN+gIdIWX+KkomHinx/Q4mAkjtwjoCNjmCTi4qNj0c7QpCOgI2OSZOHjpNCRFYoJTs7OzuYKCUoJTs7OzuLkH2HhH47gZCJfo+Eiok7gJOLio2PcYR8aICPg4p/ZImFgH6PhIqJQ2CTfoCHOz+Ak36Ah0QoJTs7OzuWKCUoJTs7Ozs7Ozs7jYCPkI2JOz+Ak36Ah0hZf4qSiYeKfH9DiYCSO3COgI2OYJOLio2PRztCkI6AjY5Jk4eOk0JHKCU7Ozs7Ozs7O3YoJTs7Ozs7Ozs7Ozs7O0JeiomPgImPSG+Ui4BCO1hZO0J8i4uHhH58j4SKiUqRiX9JiI5IgJN+gIdCRyglOzs7Ozs7Ozs7Ozs7Ql6KiY+AiY9IX4SOi4qOhI+EiolCO1hZOz18j498foOIgImPPXhEViglOzs7O5goJZgoJQ==

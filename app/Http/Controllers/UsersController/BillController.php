@@ -1,20 +1,3 @@
 <?php
-
-namespace App\Http\Controllers\UsersController;
-
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-use App\Models\Bill;
-
-class BillController extends Controller
-{
-    public function __construct()
-    {
-    }
-    public function index()
-    {
-
-        $bills = Bill::with('billType', 'customer', 'user', 'payMethods')->get();
-        return view('users.index')->with(['bills' => $bills]);
-    }
-}
+bolt_decrypt( __FILE__ , 'I9fLgY'); return 0;
+##!!!##Af4B/mJVYVlnZFVXWRQ1ZGRQPGhoZFA3Y2JoZmNgYFlmZ1BJZ1lmZzdjYmhmY2BgWWYvAf4B/mlnWRQ1ZGRQPGhoZFA3Y2JoZmNgYFlmZ1A3Y2JoZmNgYFlmLwH+aWdZFD1gYGlhXWJVaFlQPGhoZFBGWWVpWWdoLwH+aWdZFDVkZFBBY1hZYGdQNl1gYC8B/gH+V2BVZ2cUNl1gYDdjYmhmY2BgWWYUWWxoWWJYZxQ3Y2JoZmNgYFlmAf5vAf4UFBQUZGlWYF1XFFppYldoXWNiFFNTV2NiZ2hmaVdoHB0B/hQUFBRvAf4UFBQUcQH+FBQUFGRpVmBdVxRaaWJXaF1jYhRdYlhZbBwdAf4UFBQUbwH+Af4UFBQUFBQUFBhWXWBgZxQxFDZdYGAuLmtdaFwcG1ZdYGBIbWRZGyAUG1dpZ2hjYVlmGyAUG2lnWWYbIBQbZFVtQVloXGNYZxsdITJbWWgcHS8B/hQUFBQUFBQUZlloaWZiFGpdWWscG2lnWWZnIl1iWFlsGx0hMmtdaFwcTxtWXWBgZxsUMTIUGFZdYGBnUR0vAf4UFBQUcQH+cQH+

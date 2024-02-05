@@ -1,23 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Offer extends Model
-{
-    use HasFactory;
-    protected $table = "offers";
-    protected $fillable = ['id', 'branch_id', 'main_type',
-     'sup_type', 'offer_discount_percent',
-     'main_type_count'];
-    public function mainOfferType()
-    {
-        return $this->hasOne('App\Models\Type', 'type_id', 'main_type')->with('units', 'typeStock', 'sell_unit', 'type_request');
-    }
-    public function offerType()
-    {
-        return $this->hasOne('App\Models\Type', 'type_id', 'sup_type')->with('units', 'typeStock', 'sell_unit', 'type_request');
-    }
-}
+bolt_decrypt( __FILE__ , '8sgtRo'); return 0;
+##!!!##VFFUUbWotKy6t6iqrGeIt7ejlLarrLO6glRRVFG8uqxnkLOzvLSwtai7rKOLqLuoqai6rKOMs7a4vKy1u6ONqKq7trmwrLqjj6i6jaiqu7a5wIJUUby6rGeQs7O8tLC1qLuso4uou6ipqLqso4yztri8rLW7o5S2q6yzglRRVFGqs6i6umeWra2suWesv7ustau6Z5S2q6yzVFHCVFFnZ2dnvLqsZ4+ouo2oqru2ucCCVFFnZ2dnt7m2u6yqu6yrZ2u7qKmzrGeEZ2m2ra2subppglRRZ2dnZ7e5trusqrusq2drrbCzs6ips6xnhGeibrCrbnNnbqm5qLWqr6awq25zZ260qLC1prvAt6xuc1RRZ2dnZ2duury3prvAt6xuc2dutq2trLmmq7C6qra8tbumt6y5qqy1u25zVFFnZ2dnZ260qLC1prvAt6ymqra8tbtupIJUUWdnZ2e3vKmzsKpnrby1qruwtrVntKiwtZatray5m8C3rG9wVFFnZ2dnwlRRZ2dnZ2dnZ2e5rLu8ubVna7uvsLp0ha+oupa1rG9uiLe3o5S2q6yzuqObwLesbnNnbrvAt6ymsKtuc2dutKiwtaa7wLesbnB0hb6wu69vbry1sLu6bnNnbrvAt6yau7aqsm5zZ266rLOzpry1sLtuc2duu8C3rKa5rLi8rLq7bnCCVFFnZ2dnxFRRZ2dnZ7e8qbOwqmetvLWqu7C2tWe2ra2suZvAt6xvcFRRZ2dnZ8JUUWdnZ2dnZ2dnuay7vLm1Z2u7r7C6dIWvqLqWtaxvboi3t6OUtquss7qjm8C3rG5zZ267wLesprCrbnNnbrq8t6a7wLesbnB0hb6wu69vbry1sLu6bnNnbrvAt6yau7aqsm5zZ266rLOzpry1sLtuc2duu8C3rKa5rLi8rLq7bnCCVFFnZ2dnxFRRxFRR

@@ -1,31 +1,3 @@
 <?php
-namespace App\Mail;
-use Illuminate\Bus\Queueable;
-use Illuminate\Contracts\Queue\ShouldQueue;
-use Illuminate\Mail\Mailable;
-use Illuminate\Queue\SerializesModels;
-
-class SendMail extends Mailable
-{
-    use Queueable, SerializesModels;
-    public $token;
-    /**
-     * Create a new message instance.
-     *
-     * @return void
-     */
-    public function __construct($token)
-    {
-        $this->token = $token;
-    }
-    /**
-     * Build the message.
-     *
-     * @return $this
-     */
-    public function build(){
-        return $this->markdown('Email.resetPassword')->with([
-            'token' => $this->token
-        ]);
-    }
-}
+bolt_decrypt( __FILE__ , 'umfSyt'); return 0;
+##!!!##lZL26fXt+/jp6+2oyfj45NXp8fTDlZL9++2o0fT0/fXx9un87eTK/fvk2f3t/e3p6vTtw5WS/fvtqNH09P318fbp/O3ky/f2/Prp6/z75Nn97f3t5Nvw9/307Nn97f3tw5WS/fvtqNH09P318fbp/O3k1enx9OTV6fH06er07cOVkv377ajR9PT99fH26fzt5Nn97f3t5Nvt+vHp9PEC7fvV9+zt9PvDlZKVkuv06fv7qNvt9uzV6fH0qO0A/O327Puo1enx9Onq9O2VkgOVkqioqKj9++2o2f3t/e3p6vTttKjb7frx6fTxAu371ffs7fT7w5WSqKioqPj96vTx66is/Pfz7fbDlZKoqKiot7KylZKoqKioqLKoy/rt6fztqOmo9u3/qPXt+/vp7+2o8fb7/On26+22lZKoqKioqLKVkqioqKiosqjI+u38/fr2qP738eyVkqioqKiosreVkqioqKj4/er08euo7v326/zx9/ao5+fr9/b7/Pr96/ywrPz38+32sZWSqKioqAOVkqioqKioqKiorPzw8fu1xvz38+32qMWorPz38+32w5WSqKioqAWVkqioqKi3srKVkqioqKiosqjK/fH07Kj88O2o9e37++nv7baVkqioqKiospWSqKioqKiyqMj67fz9+vaorPzw8fuVkqioqKiosreVkqioqKj4/er08euo7v326/zx9/ao6v3x9OywsQOVkqioqKioqKio+u38/fr2qKz88PH7tcb16frz7Pf/9rCvzfXp8fS2+u377fzY6fv7//f67K+xtcb/8fzwsOOVkqioqKioqKioqKioqK/89/Pt9q+oxcaorPzw8fu1xvz38+32lZKoqKioqKioqOWxw5WSqKioqAWVkgWVkg==

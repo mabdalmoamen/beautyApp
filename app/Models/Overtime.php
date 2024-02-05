@@ -1,17 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-
-class Overtime extends Model
-{
-    protected $fillable = [
-        'uid', 'duration',
-        'branch_id', 'created_at'
-    ];
-    public function user()
-    {
-        return $this->belongsTo(User::class, 'uid');
-    }
-}
+bolt_decrypt( __FILE__ , 'joIbcK'); return 0;
+##!!!##Pzw/PKCTn5elopOVl1JzoqKOf6GWl56lbT88PzynpZdSe56ep5+boJOml452k6aTlJOll453nqGjp5egpo5/oZaXnm0/PD88lZ6TpaVSgaiXpKabn5dSl6qml6CWpVJ/oZaXnj88rT88UlJSUqKkoaaXlaaXllJWmJuenpOUnpdSb1KNPzxSUlJSUlJSUlmnm5ZZXlJZlqekk6aboaBZXj88UlJSUlJSUlJZlKSToJWakZuWWV5SWZWkl5Oml5aRk6ZZPzxSUlJSj20/PFJSUlKip5Sem5VSmKeglaaboaBSp6WXpFpbPzxSUlJSrT88UlJSUlJSUlKkl6anpKBSVqaam6VfcJSXnqGgmaWGoVqHpZekbGyVnpOlpV5SWaeblllbbT88UlJSUq8/PK8/PA==

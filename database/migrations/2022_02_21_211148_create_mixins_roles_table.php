@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateMixinsRolesTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('mixins_roles', function (Blueprint $table) {
-            $table->bigIncrements("role_id");
-            $table->string("role_name");
-            $table->boolean("is_admin_role");
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('mixins_roles');
-    }
-}
+bolt_decrypt( __FILE__ , 'U09xaK'); return 0;
+##!!!##7+zv7FdVRwIrTk5XT0tQQ1ZHPiZDVkNEQ1VHPi9LSVRDVktRUFU+L0tJVENWS1FQHe/sV1VHAitOTldPS1BDVkc+JkNWQ0RDVUc+NUVKR09DPiROV0dSVEtQVh3v7FdVRwIrTk5XT0tQQ1ZHPjVXUlJRVFY+KENFQ0ZHVT41RUpHT0Md7+zv7EVOQ1VVAiVUR0NWRy9LWktQVTRRTkdVNkNETkcCR1pWR1BGVQIvS0lUQ1ZLUVDv7F3v7AICAgIRDAzv7AICAgICDAI0V1ACVkpHAk9LSVRDVktRUFUQ7+wCAgICAgzv7AICAgICDAIiVEdWV1RQAlhRS0bv7AICAgICDBHv7AICAgJSV0ROS0UCSFdQRVZLUVACV1IKC+/sAgICAl3v7AICAgICAgICNUVKR09DHBxFVEdDVkcKCU9LWktQVUFUUU5HVQkOAkhXUEVWS1FQAgokTldHUlRLUFYCBlZDRE5HCwJd7+wCAgICAgICAgICAgIGVkNETkcPIERLSStQRVRHT0dQVlUKBFRRTkdBS0YECx3v7AICAgICAgICAgICAgZWQ0RORw8gVVZUS1BJCgRUUU5HQVBDT0cECx3v7AICAgICAgICAgICAgZWQ0RORw8gRFFRTkdDUAoES1VBQ0ZPS1BBVFFORwQLHe/sAgICAgICAgJfCx3v7AICAgJf7+zv7AICAgIRDAzv7AICAgICDAI0R1hHVFVHAlZKRwJPS0lUQ1ZLUVBVEO/sAgICAgIM7+wCAgICAgwCIlRHVldUUAJYUUtG7+wCAgICAgwR7+wCAgICUldETktFAkhXUEVWS1FQAkZRWVAKC+/sAgICAl3v7AICAgICAgICNUVKR09DHBxGVFFSK0gnWktVVlUKCU9LWktQVUFUUU5HVQkLHe/sAgICAl/v7F/v7A==

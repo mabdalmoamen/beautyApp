@@ -1,26 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class GustoTypeStocks extends Model
-{
-    use HasFactory;
-    protected $table = "gusto_type_stock";
-    protected $fillable = ['id','branch_id', 'type_id', 'stock_id', 'unit_id', 'mount'];
-    public $timestamps = false;
-    public function stock_id()
-    {
-        return $this->hasOne('App\Models\GustoStocks', 'id', 'stock_id');
-    }
-    public function type_id()
-    {
-        return $this->hasOne('App\Models\Type', 'type_id', 'type_id')-> with([ 'units']);
-    }
-    public function unit_id()
-    {
-        return $this->hasOne('App\Models\Unit', 'unit_id', 'unit_id');
-    }
-}
+bolt_decrypt( __FILE__ , 'i1tHtx'); return 0;
+##!!!##T0xPTLCjr6e1sqOlp2KDsrKej7Gmp661fU9MT0y3tadii66ut6+rsKO2p56Go7ajpKO1p56HrrGzt6ewtp6Io6W2sbSrp7WeiqO1iKOltrG0u31PTLe1p2KLrq63r6uwo7annoajtqOko7WnnoeusbO3p7C2no+xpqeufU9MT0ylrqO1tWKJt7W2sZa7sqeVtrGlrbVip7q2p7CmtWKPsaanrk9MvU9MYmJiYre1p2KKo7WIo6W2sbS7fU9MYmJiYrK0sbanpbanpmJmtqOkrqdif2Jkqbe1trGhtruyp6G1trGlrWR9T0xiYmJisrSxtqeltqemYmaoq66uo6Sup2J/Yp1pq6ZpbmmktKOwpaqhq6ZpbmJptruyp6GrpmluYmm1trGlraGrpmluYmm3sKu2oaumaW5iaa+xt7C2aZ99T0xiYmJisrekrqulYma2q6+ntbajr7K1Yn9iqKOutad9T0xiYmJisrekrqulYqi3sKW2q7GwYrW2saWtoaumamtPTGJiYmK9T0xiYmJiYmJiYrSntre0sGJmtqqrtW+AqqO1kbCnammDsrKej7Gmp661nom3tbaxlbaxpa21aW5iaaumaW5iabW2saWtoaumaWt9T0xiYmJiv09MYmJiYrK3pK6rpWKot7CltquxsGK2u7KnoaumamtPTGJiYmK9T0xiYmJiYmJiYrSntre0sGJmtqqrtW+AqqO1kbCnammDsrKej7Gmp661npa7sqdpbmJptruyp6GrpmluYmm2u7KnoaumaWtvgGK5q7aqap1iabewq7a1aZ9rfU9MYmJiYr9PTGJiYmKyt6Suq6ViqLewpbarsbBit7CrtqGrpmprT0xiYmJivU9MYmJiYmJiYmK0p7a3tLBiZraqq7VvgKqjtZGwp2ppg7Kyno+xpqeutZ6XsKu2aW5iabewq7ahq6ZpbmJpt7CrtqGrpmlrfU9MYmJiYr9PTL9PTA==

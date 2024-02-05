@@ -1,26 +1,3 @@
 <?php
-
-namespace App\Http\Middleware;
-
-use Closure;
-use Illuminate\Support\Facades\DB;
-
-class Lang
-{
-    public function handle($request, Closure $next)
-    {
-        if (request('lang')) {
-            session()->put('language', request('lang'));
-            $language = request('lang');
-        } elseif (session('language')) {
-            $language = session('language');
-        } elseif (config('lang.primary_language')) {
-            $language = config('lang.primary_language');
-        } else {
-            $language = "ar";
-        }
-
-        app()->setLocale($language);
-        return $next($request);
-    }
-}
+bolt_decrypt( __FILE__ , 'RZ9Krw'); return 0;
+##!!!##JiMmI4d6hn6MiXp8fjlaiYl1YY2NiXVmgn19hX6Qeot+VCYjJiOOjH45XIWIjI6LflQmI46MfjlihYWOhoKHeo1+dWyOiYmIi411X3p8en1+jHVdW1QmIyYjfIV6jIw5ZXqHgCYjlCYjOTk5OYmOe4WCfDl/jod8jYKIhzmBeod9hX5BPYt+io5+jI1FOVyFiIyOi345PYd+kY1CJiM5OTk5lCYjOTk5OTk5OTmCfzlBi36Kjn6MjUFAhXqHgEBCQjmUJiM5OTk5OTk5OTk5OTmMfoyMgoiHQUJGV4mOjUFAhXqHgI56gH5ARTmLfoqOfoyNQUCFeoeAQEJCVCYjOTk5OTk5OTk5OTk5PYV6h4COeoB+OVY5i36Kjn6MjUFAhXqHgEBCVCYjOTk5OTk5OTmWOX6FjH6CfzlBjH6MjIKIh0FAhXqHgI56gH5AQkI5lCYjOTk5OTk5OTk5OTk5PYV6h4COeoB+OVY5jH6MjIKIh0FAhXqHgI56gH5AQlQmIzk5OTk5OTk5ljl+hYx+gn85QXyIh3+CgEFAhXqHgEeJi4KGeouSeIV6h4COeoB+QEJCOZQmIzk5OTk5OTk5OTk5OT2FeoeAjnqAfjlWOXyIh3+CgEFAhXqHgEeJi4KGeouSeIV6h4COeoB+QEJUJiM5OTk5OTk5OZY5foWMfjmUJiM5OTk5OTk5OTk5OTk9hXqHgI56gH45Vjk7eos7VCYjOTk5OTk5OTmWJiMmIzk5OTk5OTk5eomJQUJGV4x+jWWIfHqFfkE9hXqHgI56gH5CVCYjOTk5OTk5OTmLfo2Oi4c5PYd+kY1BPYt+io5+jI1CVCYjOTk5OZYmI5YmIw==

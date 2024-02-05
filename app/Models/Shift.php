@@ -1,36 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Shift extends Model
-{
-    use HasFactory;
-    protected  $fillable = [
-        'id',
-        'current_user',
-        'recived_user',
-        'starter_point', 'branch_id',
-        'cash',
-        'later',
-        'card',
-        'transfer',
-        'increase',
-        'deficit',
-        'cash_entered',
-        'starter_date',
-        'remain',
-        'end_date',
-    ];
-    public $timestamps = false;
-    public function currentUser()
-    {
-        return $this->hasOne('App\Models\User', 'id', 'current_user');
-    }
-    public function recivedUser()
-    {
-        return $this->hasOne('App\Models\User', 'id', 'recived_user');
-    }
-}
+bolt_decrypt( __FILE__ , 'FSoyUv'); return 0;
+##!!!##WVZZVrqtubG/vK2vsWyNvLyombuwsbi/h1lWWVbBv7Fslbi4wbm1uq3AsaiQrcCtrq2/saiRuLu9wbG6wKiSra/Au761sb+olK2/kq2vwLu+xYdZVsG/sWyVuLjBubW6rcCxqJCtwK2urb+xqJG4u73BsbrAqJm7sLG4h1lWWVavuK2/v2yftLWywGyxxMCxurC/bJm7sLG4WVbHWVZsbGxswb+xbJStv5Ktr8C7vsWHWVZsbGxsvL67wLGvwLGwbGxwsrW4uK2uuLFsiWynWVZsbGxsbGxsbHO1sHN4WVZsbGxsbGxsbHOvwb6+sbrAq8G/sb5zeFlWbGxsbGxsbGxzvrGvtcKxsKvBv7G+c3hZVmxsbGxsbGxsc7/Arb7Asb6rvLu1usBzeGxzrr6tuq+0q7Wwc3hZVmxsbGxsbGxsc6+tv7RzeFlWbGxsbGxsbGxzuK3Asb5zeFlWbGxsbGxsbGxzr62+sHN4WVZsbGxsbGxsbHPAvq26v7KxvnN4WVZsbGxsbGxsbHO1uq++sa2/sXN4WVZsbGxsbGxsbHOwsbK1r7XAc3hZVmxsbGxsbGxsc6+tv7SrsbrAsb6xsHN4WVZsbGxsbGxsbHO/wK2+wLG+q7CtwLFzeFlWbGxsbGxsbGxzvrG5rbW6c3hZVmxsbGxsbGxsc7G6sKuwrcCxc3hZVmxsbGyph1lWbGxsbLzBrri1r2xwwLW5sb/Arbm8v2yJbLKtuL+xh1lWbGxsbLzBrri1r2yywbqvwLW7umyvwb6+sbrAob+xvnR1WVZsbGxsx1lWbGxsbGxsbGy+scDBvrpscMC0tb95irStv5u6sXRzjby8qJm7sLG4v6ihv7G+c3hsc7Wwc3hsc6/Bvr6xusCrwb+xvnN1h1lWbGxsbMlZVmxsbGy8wa64ta9sssG6r8C1u7psvrGvtcKxsKG/sb50dVlWbGxsbMdZVmxsbGxsbGxsvrHAwb66bHDAtLW/eYq0rb+burF0c428vKiZu7CxuL+oob+xvnN4bHO1sHN4bHO+sa+1wrGwq8G/sb5zdYdZVmxsbGzJWVbJWVY=

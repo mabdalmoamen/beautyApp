@@ -1,20 +1,3 @@
 <?php
-
-namespace App\Http\Middleware;
-
-use Illuminate\Http\Middleware\TrustHosts as Middleware;
-
-class TrustHosts extends Middleware
-{
-    /**
-     * Get the host patterns that should be trusted.
-     *
-     * @return array
-     */
-    public function hosts()
-    {
-        return [
-            $this->allSubdomainsOfApplicationUrl(),
-        ];
-    }
-}
+bolt_decrypt( __FILE__ , 'jAL1y2'); return 0;
+##!!!##4N3g3UE0QDhGQzQ2OPMUQ0MvG0dHQy8gPDc3PzhKNEU4DuDd4N1IRjjzHD8/SEA8QTRHOC8bR0dDLyA8Nzc/OEo0RTgvJ0VIRkcbQkZHRvM0RvMgPDc3PzhKNEU4DuDd4N02PzRGRvMnRUhGRxtCRkdG8zhLRzhBN0bzIDw3Nz84SjRFOODdTuDd8/Pz8wL9/eDd8/Pz8/P98xo4R/NHOzjzO0JGR/NDNEdHOEVBRvNHOzRH80Y7Qkg/N/M1OPNHRUhGRzg3AeDd8/Pz8/P94N3z8/Pz8/3zE0U4R0hFQfM0RUU0TODd8/Pz8/P9AuDd8/Pz80NINT88NvM5SEE2RzxCQfM7QkZHRvv84N3z8/PzTuDd8/Pz8/Pz8/NFOEdIRUHzLuDd8/Pz8/Pz8/Pz8/Pz90c7PEYAETQ/PyZINTdCQDQ8QUYiORRDQz88NjRHPEJBKEU/+/z/4N3z8/Pz8/Pz8zAO4N3z8/PzUODdUODd

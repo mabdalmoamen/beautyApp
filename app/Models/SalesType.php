@@ -1,13 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class SalesType extends Model
-{
-    use HasFactory;
-    protected $table = "sales_type";
-    protected $fillable = ['id', 'sill_type_name','branch_id', 'cost'];
-}
+bolt_decrypt( __FILE__ , 'D3eZlu'); return 0;
+##!!!##JCEkIYV4hHyKh3h6fDdYh4dzZIZ7fIOKUiQhJCGMinw3YIODjISAhXiLfHNbeIt4eXiKfHNcg4aIjHyFi3NdeHqLhomAfIpzX3iKXXh6i4aJkFIkIYyKfDdgg4OMhICFeIt8c1t4i3h5eIp8c1yDhoiMfIWLc2SGe3yDUiQhJCF6g3iKijdqeIN8imuQh3w3fI+LfIV7ijdkhnt8gyQhkiQhNzc3N4yKfDdfeIpdeHqLhomQUiQhNzc3N4eJhot8eot8ezc7i3h5g3w3VDc5iniDfIp2i5CHfDlSJCE3Nzc3h4mGi3x6i3x7Nzt9gIODeHmDfDdUN3I+gHs+Qzc+ioCDg3aLkId8doV4hHw+Qz55iXiFen92gHs+Qzc+eoaKiz50UiQhlCQh

@@ -1,24 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Expense extends Model
-{
-    use HasFactory;
-    protected $fillable = ['id', 'expense_title',
-     'expense_cost', 'expense_vat', 'paid_Type',
-      'expense_icon',
-        'branch_id', 'expense_date', 'user_id'];
-
-    public function user()
-    {
-        return $this->hasOne('App\Models\User', 'id', 'user_id');
-    }
-    public function payMethods()
-    {
-        return $this->hasOne('App\Models\PayMethods', 'id', 'paid_Type');
-    }
-}
+bolt_decrypt( __FILE__ , '2vqzFN'); return 0;
+##!!!##NDE0MZWIlIyal4iKjEdol5eDdJaLjJOaYjQxNDGcmoxHcJOTnJSQlYibjINriJuIiYiajINsk5aYnIyVm4NtiIqblpmQjJqDb4iabYiKm5aZoGI0MZyajEdwk5OclJCViJuMg2uIm4iJiJqMg2yTlpicjJWbg3SWi4yTYjQxNDGKk4iamkdsn5eMlZqMR4yfm4yVi5pHdJaLjJM0MaI0MUdHR0ecmoxHb4iabYiKm5aZoGI0MUdHR0eXmZabjIqbjItHS42Qk5OIiZOMR2RHgk6Qi05TR06Mn5eMlZqMhpuQm5OMTlM0MUdHR0dHToyfl4yVmoyGipaam05TR06Mn5eMlZqMhp2Im05TR06XiJCLhnugl4xOUzQxR0dHR0dHToyfl4yVmoyGkIqWlU5TNDFHR0dHR0dHR06JmYiVio+GkItOU0dOjJ+XjJWajIaLiJuMTlNHTpyajJmGkItOhGI0MTQxR0dHR5eciZOQikeNnJWKm5CWlUecmoyZT1A0MUdHR0eiNDFHR0dHR0dHR5mMm5yZlUdLm4+QmlRlj4iadpWMT05ol5eDdJaLjJOag3yajJlOU0dOkItOU0dOnJqMmYaQi05QYjQxR0dHR6Q0MUdHR0eXnImTkIpHjZyVipuQlpVHl4igdIybj5aLmk9QNDFHR0dHojQxR0dHR0dHR0eZjJucmZVHS5uPkJpUZY+ImnaVjE9OaJeXg3SWi4yTmoN3iKB0jJuPlouaTlNHTpCLTlNHTpeIkIuGe6CXjE5QYjQxR0dHR6Q0MaQ0MQ==

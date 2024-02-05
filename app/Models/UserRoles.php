@@ -1,23 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class UserRoles extends Model
-{
-    use HasFactory;
-    protected $table = "user_roles";
-    protected $fillable = ['user_role_id','branch_id', 'mixins_role', 'user_id'];
-    public function user()
-    {
-        return $this->hasOne('App\Models\User', 'id', 'user_id');
-    }
-    protected $primaryKey = 'user_role_id';
-
-    public function role()
-    {
-        return $this->hasOne('App\Models\MixinsRoles', 'role_id', 'mixins_role');
-    }
-}
+bolt_decrypt( __FILE__ , 'ejjz5G'); return 0;
+##!!!##PDk8OZ2QnJSin5CSlE9wn5+LfJ6TlJuiajw5PDmkopRPeJubpJyYnZCjlItzkKOQkZCilIt0m56gpJSdo4t1kJKjnqGYlKKLd5CidZCSo56hqGo8OaSilE94m5uknJidkKOUi3OQo5CRkKKUi3SbnqCklJ2ji3yek5Sbajw5PDmSm5Ciok+EopShgZ6blKJPlKejlJ2Tok98npOUmzw5qjw5T09PT6SilE93kKJ1kJKjnqGoajw5T09PT5+hnqOUkqOUk09To5CRm5RPbE9RpKKUoY6hnpuUolFqPDlPT09Pn6Geo5SSo5STT1OVmJubkJGblE9sT4pWpKKUoY6hnpuUjpiTVltWkaGQnZKXjpiTVltPVpyYp5idoo6hnpuUVltPVqSilKGOmJNWjGo8OU9PT0+fpJGbmJJPlaSdkqOYnp1PpKKUoVdYPDlPT09Pqjw5T09PT09PT0+hlKOkoZ1PU6OXmKJcbZeQon6dlFdWcJ+fi3yek5SboouEopShVltPVpiTVltPVqSilKGOmJNWWGo8OU9PT0+sPDlPT09Pn6Geo5SSo5STT1OfoZickKGoepSoT2xPVqSilKGOoZ6blI6Yk1ZqPDk8OU9PT0+fpJGbmJJPlaSdkqOYnp1PoZ6blFdYPDlPT09Pqjw5T09PT09PT0+hlKOkoZ1PU6OXmKJcbZeQon6dlFdWcJ+fi3yek5Sboot8mKeYnaKBnpuUolZbT1ahnpuUjpiTVltPVpyYp5idoo6hnpuUVlhqPDlPT09PrDw5rDw5

@@ -1,33 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateTablesTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('tables', function (Blueprint $table) {
-            $table->id();
-            $table->string("table_no")->nullable();
-            $table->string("plcae")->nullable();
-            $table->boolean("is_resrved")->default(false);
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('tables');
-    }
-}
+bolt_decrypt( __FILE__ , 'bYOupS'); return 0;
+##!!!##T0xPTLe1p2KLrq63r6uwo7annoajtqOko7Wnno+rqbSjtquxsLWej6uptKO2q7GwfU9Mt7WnYouurrevq7CjtqeehqO2o6SjtaeelaWqp6+jnoSut6eytKuwtn1PTLe1p2KLrq63r6uwo7annpW3srKxtLaeiKOlo6antZ6Vpaqnr6N9T0xPTKWuo7W1YoW0p6O2p5ajpK6ntZajpK6nYqe6tqewprVij6uptKO2q7GwT0y9T0xiYmJicWxsT0xiYmJiYmxilLewYraqp2Kvq6m0o7arsbC1cE9MYmJiYmJsT0xiYmJiYmxigrSntre0sGK4saumT0xiYmJiYmxxT0xiYmJisrekrqulYqi3sKW2q7GwYreyamtPTGJiYmK9T0xiYmJiYmJiYpWlqqevo3x8pbSno7anamm2o6Sup7VpbmKot7CltquxsGJqhK63p7K0q7C2Yma2o6Sup2tivU9MYmJiYmJiYmJiYmJiZrajpK6nb4CrpmprfU9MYmJiYmJiYmJiYmJiZrajpK6nb4C1trSrsKlqZLajpK6nobCxZGtvgLC3rq6jpK6namt9T0xiYmJiYmJiYmJiYmJmtqOkrqdvgLW2tKuwqWpksq6lo6dka2+AsLeurqOkrqdqa31PTGJiYmJiYmJiYmJiYma2o6Sup2+ApLGxrqejsGpkq7WhtKe1tLinpmRrb4Cmp6ijt662aqijrrWna31PTGJiYmJiYmJiv2t9T0xiYmJiv09MT0xiYmJicWxsT0xiYmJiYmxilKe4p7S1p2K2qqdir6uptKO2q7GwtXBPTGJiYmJibE9MYmJiYmJsYoK0p7a3tLBiuLGrpk9MYmJiYmJscU9MYmJiYrK3pK6rpWKot7CltquxsGKmsbmwamtPTGJiYmK9T0xiYmJiYmJiYpWlqqevo3x8prSxsouoh7qrtba1amm2o6Sup7Vpa31PTGJiYmK/T0y/T0w=

@@ -1,35 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class PurchaseBillTypes extends Model
-{
-    use HasFactory;
-    protected $table = "purchase_bill_types";
-    protected $fillable =
-    [
-        'purchase_bill_types_id',
-        'purchase_bills', 'type_id',
-        'type_count', 'type_purchase_price',
-        'type_sill_price', 'total_purchase_price', 'type_vat'
-    ];
-    protected $primaryKey = 'purchase_bill_types_id';
-
-    public $timestamps = false;
-    public function bill()
-    {
-        return $this->belongsTo(
-            'App\Models\MixinsPurchaseBills',
-            'purchase_bills',
-            'purchase_bill_no'
-        );
-    }
-
-    public function type()
-    {
-        return $this->hasOne('App\Models\GustoStocks', 'id', 'type_id');
-    }
-}
+bolt_decrypt( __FILE__ , 'XVIdxB'); return 0;
+##!!!##Ih8iH4N2gnqIhXZ4ejVWhYVxYoR5eoGIUCIfIh+KiHo1XoGBioJ+g3aJenFZdol2d3aIenFagYSGinqDiXFbdniJhId+eohxXXaIW3Z4iYSHjlAiH4qIejVegYGKgn6Ddol6cVl2iXZ3doh6cVqBhIaKeoOJcWKEeXqBUCIfIh94gXaIiDVliod4fXaIeld+gYFpjoV6iDV6jYl6g3mINWKEeXqBIh+QIh81NTU1ioh6NV12iFt2eImEh45QIh81NTU1hYeEiXp4iXp5NTmJdneBejVSNTeFiod4fXaIenR3foGBdImOhXqIN1AiHzU1NTWFh4SJeniJenk1OXt+gYF2d4F6NVIiHzU1NTVwIh81NTU1NTU1NTyFiod4fXaIenR3foGBdImOhXqIdH55PEEiHzU1NTU1NTU1PIWKh3h9doh6dHd+gYGIPEE1PImOhXp0fnk8QSIfNTU1NTU1NTU8iY6FenR4hIqDiTxBNTyJjoV6dIWKh3h9doh6dIWHfnh6PEEiHzU1NTU1NTU1PImOhXp0iH6BgXSFh354ejxBNTyJhIl2gXSFiod4fXaIenSFh354ejxBNTyJjoV6dIt2iTwiHzU1NTVyUCIfNTU1NYWHhIl6eIl6eTU5hYd+gnaHjmB6jjVSNTyFiod4fXaIenR3foGBdImOhXqIdH55PFAiHyIfNTU1NYWKd4F+eDU5iX6CeoiJdoKFiDVSNXt2gYh6UCIfNTU1NYWKd4F+eDV7ioN4iX6EgzV3foGBPT4iHzU1NTWQIh81NTU1NTU1NYd6iYqHgzU5iX1+iEJTd3qBhIN8iGmEPSIfNTU1NTU1NTU1NTU1PFaFhXFihHl6gYhxYn6NfoOIZYqHeH12iHpXfoGBiDxBIh81NTU1NTU1NTU1NTU8hYqHeH12iHp0d36BgYg8QSIfNTU1NTU1NTU1NTU1PIWKh3h9doh6dHd+gYF0g4Q8Ih81NTU1NTU1NT5QIh81NTU1kiIfIh81NTU1hYp3gX54NXuKg3iJfoSDNYmOhXo9PiIfNTU1NZAiHzU1NTU1NTU1h3qJioeDNTmJfX6IQlN9dohkg3o9PFaFhXFihHl6gYhxXIqIiYRoiYR4gIg8QTU8fnk8QTU8iY6FenR+eTw+UCIfNTU1NZIiH5IiHw==

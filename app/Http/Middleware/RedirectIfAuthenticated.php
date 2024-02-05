@@ -1,32 +1,3 @@
 <?php
-
-namespace App\Http\Middleware;
-
-use App\Providers\RouteServiceProvider;
-use Closure;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
-
-class RedirectIfAuthenticated
-{
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
-     * @param  string|null  ...$guards
-     * @return mixed
-     */
-    public function handle(Request $request, Closure $next, ...$guards)
-    {
-        $guards = empty($guards) ? [null] : $guards;
-
-        foreach ($guards as $guard) {
-            if (Auth::guard($guard)->check()) {
-                return redirect(RouteServiceProvider::HOME);
-            }
-        }
-
-        return $next($request);
-    }
-}
+bolt_decrypt( __FILE__ , 'HvSZTF'); return 0;
+##!!!##Eg8SD3Nmcmp4dWZoaiVGdXVhTXl5dWFSbmlpcWp8ZndqQBIPEg96eGolRnV1YVV3dHtuaWp3eGFXdHp5alhqd3tuaGpVd3R7bmlqd0ASD3p4aiVIcXR4endqQBIPenhqJU5xcXpybnNmeWphTXl5dWFXanZ6anh5QBIPenhqJU5xcXpybnNmeWphWHp1dXR3eWFLZmhmaWp4YUZ6eW1AEg8SD2hxZnh4JVdqaW53amh5TmtGenltanN5bmhmeWppEg+AEg8lJSUlNC8vEg8lJSUlJS8lTWZzaXFqJWZzJW5zaHRybnNsJXdqdnpqeHkzEg8lJSUlJS8SDyUlJSUlLyVFdWZ3ZnIlJWFOcXF6cm5zZnlqYU15eXVhV2p2emp4eSUlKXdqdnpqeHkSDyUlJSUlLyVFdWZ3ZnIlJWFIcXR4endqJSUpc2p9eRIPJSUlJSUvJUV1ZndmciUleHl3bnNsgXN6cXElJTMzMylsemZ3aXgSDyUlJSUlLyVFd2p5endzJXJufWppEg8lJSUlJS80Eg8lJSUldXpncW5oJWt6c2h5bnRzJW1mc2lxai1XanZ6anh5JSl3anZ6anh5MSVIcXR4endqJSlzan15MSUzMzMpbHpmd2l4LhIPJSUlJYASDyUlJSUlJSUlKWx6ZndpeCVCJWpydXl+LSlsemZ3aXguJUQlYHN6cXFiJT8lKWx6ZndpeEASDxIPJSUlJSUlJSVrdHdqZmhtJS0pbHpmd2l4JWZ4JSlsemZ3aS4lgBIPJSUlJSUlJSUlJSUlbmslLUZ6eW0/P2x6ZndpLSlsemZ3aS4yQ2htamhwLS4uJYASDyUlJSUlJSUlJSUlJSUlJSV3anl6d3Mld2ppbndqaHktV3R6eWpYand7bmhqVXd0e25panc/P01UUkouQBIPJSUlJSUlJSUlJSUlghIPJSUlJSUlJSWCEg8SDyUlJSUlJSUld2p5endzJSlzan15LSl3anZ6anh5LkASDyUlJSWCEg+CEg8=

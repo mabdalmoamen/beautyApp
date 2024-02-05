@@ -1,34 +1,3 @@
 <?php
-
-namespace App\Http\Middleware;
-
-use App\Facade\Tenants;
-use Closure;
-use Illuminate\Http\Request;
-use App\Models\Tenant;
-use App\Service\TenantServcie;
-
-class TenantsMiddleware
-{
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure(\Illuminate\Http\Request): (\Illuminate\Http\Response|\Illuminate\Http\RedirectResponse)  $next
-     * @return \Illuminate\Http\Response|\Illuminate\Http\RedirectResponse
-     */
-    public function handle(Request $request, Closure $next)
-    {
-        if (\Config::get('database.default') != strtolower('mysql')) {
-            $host = $request->getHost();
-            $tenant = Tenant::where('domain', $host)->first();
-            if ($tenant->is_active) {
-                Tenants::switchToTenant($tenant);
-            } else {
-                return  view('404');
-            }
-        }
-
-        return $next($request);
-    }
-}
+bolt_decrypt( __FILE__ , 'vqzRlP'); return 0;
+##!!!##fHl8ed3Q3NTi39DS1I+w39/Lt+Pj38u82NPT29Tm0OHUqnx5fHnk4tSPsN/fy7XQ0tDT1MvD1N3Q3ePiqnx55OLUj7Lb3uLk4dSqfHnk4tSPuNvb5NzY3dDj1Mu34+Pfy8HU4OTU4uOqfHnk4tSPsN/fy7ze09Tb4svD1N3Q3eOqfHnk4tSPsN/fy8LU4eXY0tTLw9Td0N3jwtTh5dLY1Kp8eXx50tvQ4uKPw9Td0N3j4rzY09Pb1ObQ4dR8eep8eY+Pj4+emZl8eY+Pj4+PmY+30N3T29SP0N2P2N3S3tzY3daP4dTg5NTi4518eY+Pj4+PmXx5j4+Pj4+Zj6/f0OHQ3I+Py7jb2+Tc2N3Q49TLt+Pj38vB1ODk1OLjj4+T4dTg5NTi43x5j4+Pj4+Zj6/f0OHQ3I+Py7Lb3uLk4dSXy7jb2+Tc2N3Q49TLt+Pj38vB1ODk1OLjmKmPl8u429vk3Njd0OPUy7fj49/LwdTi397d4tTry7jb2+Tc2N3Q49TLt+Pj38vB1NPY4dTS48HU4t/e3eLUmI+Pk93U5+N8eY+Pj4+PmY+v4dTj5OHdj8u429vk3Njd0OPUy7fj49/LwdTi397d4tTry7jb2+Tc2N3Q49TLt+Pj38vB1NPY4dTS48HU4t/e3eLUfHmPj4+Pj5mefHmPj4+P3+TR29jSj9Xk3dLj2N7dj9fQ3dPb1JfB1ODk1OLjj5Ph1ODk1OLjm4+y297i5OHUj5Pd1OfjmHx5j4+Pj+p8eY+Pj4+Pj4+P2NWPl8uy3t3V2NapqdbU45eW09Dj0NHQ4tSd09TV0OTb45aYj5Csj+Lj4ePe297m1OGXltzo4uDblpiYj+p8eY+Pj4+Pj4+Pj4+Pj5PX3uLjj6yPk+HU4OTU4uOcrdbU47fe4uOXmKp8eY+Pj4+Pj4+Pj4+Pj5Pj1N3Q3eOPrI/D1N3Q3eOpqebX1OHUl5bT3tzQ2N2Wm4+T197i45icrdXY4eLjl5iqfHmPj4+Pj4+Pj4+Pj4/Y1Y+Xk+PU3dDd45yt2OLO0NLj2OXUmI/qfHmPj4+Pj4+Pj4+Pj4+Pj4+Pw9Td0N3j4qmp4ubY49LXw97D1N3Q3eOXk+PU3dDd45iqfHmPj4+Pj4+Pj4+Pj4/sj9Tb4tSP6nx5j4+Pj4+Pj4+Pj4+Pj4+Pj+HU4+Th3Y+P5djU5peWo5+jlpiqfHmPj4+Pj4+Pj4+Pj4/sfHmPj4+Pj4+Pj+x8eXx5j4+Pj4+Pj4/h1OPk4d2Pk93U5+OXk+HU4OTU4uOYqnx5j4+Pj+x8eex8eQ==

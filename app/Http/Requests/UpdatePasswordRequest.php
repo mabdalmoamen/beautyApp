@@ -1,27 +1,3 @@
 <?php
-namespace App\Http\Requests;
-use Illuminate\Foundation\Http\FormRequest;
-
-class UpdatePasswordRequest extends FormRequest {
-    /**
-     * Determine if the user is authorized to make this request.
-     *
-     * @return bool
-     */
-    public function authorize()
-    {
-        return true;
-    }
-    /**
-     * Get the validation rules that apply to the request.
-     *
-     * @return array
-     */
-    public function rules()
-    {
-        return [
-            'email' => 'required|email',
-            'password' => 'required|confirmed'
-        ];
-    }
-}
+bolt_decrypt( __FILE__ , 'FqvK6t'); return 0;
+##!!!##LyyQg4+HlZKDhYdCY5KSfmqWlpJ+dIeTl4eVlpVdLyyXlYdCa46Ol4+LkIOWh35okZeQhoOWi5GQfmqWlpJ+aJGUj3SHk5eHlZZdLywvLIWOg5WVQneShoOWh3KDlZWZkZSGdIeTl4eVlkKHmpaHkIaVQmiRlI90h5OXh5WWQp0vLEJCQkJRTEwvLEJCQkJCTEJmh5aHlI+LkIdCi4hCloqHQpeVh5RCi5VCg5eWipGUi5yHhkKWkUKPg42HQpaKi5VClIeTl4eVllAvLEJCQkJCTC8sQkJCQkJMQmKUh5aXlJBChJGRji8sQkJCQkJMUS8sQkJCQpKXhI6LhUKIl5CFlouRkEKDl5aKkZSLnIdKSy8sQkJCQp0vLEJCQkJCQkJClIeWl5SQQpaUl4ddLyxCQkJCny8sQkJCQlFMTC8sQkJCQkJMQmmHlkKWiodCmIOOi4aDlouRkEKUl46HlUKWioOWQoOSko6bQpaRQpaKh0KUh5OXh5WWUC8sQkJCQkJMLyxCQkJCQkxCYpSHlpeUkEKDlJSDmy8sQkJCQkJMUS8sQkJCQpKXhI6LhUKIl5CFlouRkEKUl46HlUpLLyxCQkJCnS8sQkJCQkJCQkKUh5aXlJBCfS8sQkJCQkJCQkJCQkJCSYePg4uOSUJfYEJJlIeTl4uUh4aeh4+Di45JTi8sQkJCQkJCQkJCQkJCSZKDlZWZkZSGSUJfYEJJlIeTl4uUh4aehZGQiIuUj4eGSS8sQkJCQkJCQkJ/XS8sQkJCQp8vLJ8vLA==

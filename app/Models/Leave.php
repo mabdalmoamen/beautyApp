@@ -1,30 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Cache;
-
-class Leave extends Model
-{
-    protected $fillable = [
-        'uid', 'status',
-        'branch_id', 'created_at'
-    ];
-    protected $casts = [
-        'status' => 'boolean',
-
-    ];
-    protected static function boot()
-    {
-        parent::boot();
-
-        static::updated(function () {
-            return Cache::forget('activeChannels');
-        });
-    }
-    public function user()
-    {
-        return $this->belongsTo(User::class, 'uid');
-    }
-}
+bolt_decrypt( __FILE__ , '7LRYGM'); return 0;
+##!!!##z8zPzDAjLyc1MiMlJ+IDMjIeDzEmJy41/c/Mz8w3NSfiCy4uNy8rMCM2Jx4GIzYjJCM1Jx4HLjEzNycwNh4PMSYnLv3PzDc1J+ILLi43LyswIzYnHhU3MjIxNDYeCCMlIyYnNR4FIyUqJ/3PzM/MJS4jNTXiDicjOCfiJzo2JzAmNeIPMSYnLs/MPc/M4uLi4jI0MTYnJTYnJuLmKCsuLiMkLifi/+Idz8zi4uLi4uLi4uk3Kybp7uLpNTYjNjc16e7PzOLi4uLi4uLi6SQ0IzAlKiErJunu4uklNCcjNicmISM26c/M4uLi4h/9z8zi4uLiMjQxNiclNicm4uYlIzU2NeL/4h3PzOLi4uLi4uLi6TU2IzY3Neni/wDi6SQxMS4nIzDp7s/Mz8zi4uLiH/3PzOLi4uIyNDE2JyU2JybiNTYjNisl4ig3MCU2KzEw4iQxMTbq68/M4uLi4j3PzOLi4uLi4uLiMiM0JzA2/PwkMTE26uv9z8zPzOLi4uLi4uLiNTYjNisl/Pw3MiYjNicm6ig3MCU2KzEw4urr4j3PzOLi4uLi4uLi4uLi4jQnNjc0MOIFIyUqJ/z8KDE0KSc26ukjJTYrOCcFKiMwMCcuNenr/c/M4uLi4uLi4uI/6/3PzOLi4uI/z8zi4uLiMjckLisl4ig3MCU2KzEw4jc1JzTq68/M4uLi4j3PzOLi4uLi4uLiNCc2NzQw4uY2Kis17wAkJy4xMCk1FjHqFzUnNPz8JS4jNTXu4uk3Kybp6/3PzOLi4uI/z8w/z8w=

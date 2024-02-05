@@ -1,11 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class MainType extends Model
-{
-    use HasFactory;
-}
+bolt_decrypt( __FILE__ , 'aV5lYU'); return 0;
+##!!!##ExATEHRnc2t5dmdpayZHdnZiU3Vqa3J5QRMQExB7eWsmT3Jye3NvdGd6a2JKZ3pnaGd5a2JLcnV3e2t0emJMZ2l6dXhva3liTmd5TGdpenV4f0ETEHt5ayZPcnJ7c290Z3prYkpnemdoZ3lrYktydXd7a3R6YlN1amtyQRMQExBpcmd5eSZTZ290Wn92ayZrfnprdGp5JlN1amtyExCBExAmJiYme3lrJk5neUxnaXp1eH9BExCDExA=

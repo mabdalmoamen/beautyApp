@@ -1,17 +1,3 @@
 <?php
-
-namespace App\Http\Controllers\Api;
-
-use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-
-class SaveBillController extends Controller
-{
-    public function saveNewBill(Request $request, $data)
-    {
-        //
-        return response($request->sum);
-
-        //        return json_encode($data['product']);
-    }
-}
+bolt_decrypt( __FILE__ , 'YEGE6O'); return 0;
+##!!!##vLm8uR0QHBQiHxASFM/wHx8L9yMjHwvyHh0jIR4bGxQhIgvwHxjqvLm8uSQiFM/wHx8L9yMjHwvyHh0jIR4bGxQhIgvyHh0jIR4bGxQh6ry5JCIUz/gbGyQcGB0QIxQL9yMjHwsBFCAkFCIj6ry5vLkSGxAiIs8CECUU8RgbG/IeHSMhHhsbFCHPFCcjFB0TIs/yHh0jIR4bGxQhvLkqvLnPz8/PHyQRGxgSzxUkHRIjGB4dzyIQJRT9FCbxGBsb1wEUICQUIiPP0yEUICQUIiPbz9MTECMQ2Ly5z8/Pzyq8uc/Pz8/Pz8/P3t68uc/Pz8/Pz8/PIRQjJCEdzyEUIh8eHSIU19MhFCAkFCIj3O0iJBzY6ry5vLnPz8/Pz8/Pz97ez8/Pz8/Pz88hFCMkIR3PGSIeHQ4UHRIeExTX0xMQIxAK1h8hHhMkEiPWDNjqvLnPz8/PLLy5LLy5

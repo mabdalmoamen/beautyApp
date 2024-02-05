@@ -1,19 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class MixinsSuppliers extends Model
-{
-    use HasFactory;
-    protected $table = "mixins_suppliers";
-
-    protected $fillable = ['supplier_id', 'branch_id', 'supplier_name',
-     'supplier_mobile', 'supplier_total_withdrawals',
-     'supplier_total_paid', 'supplier_total_remain', 'mixins_suppliers_no'];
-    public $timestamps = false;
-    protected $primaryKey = 'supplier_id';
-
-}
+bolt_decrypt( __FILE__ , '1edrRK'); return 0;
+##!!!##FhMWE3dqdm58eWpsbilKeXllVnhtbnV8RBYTFhN+fG4pUnV1fnZyd2p9bmVNan1qa2p8bmVOdXh6fm53fWVPamx9eHtybnxlUWp8T2psfXh7gkQWE358bilSdXV+dnJ3an1uZU1qfWpranxuZU51eHp+bnd9ZVZ4bW51RBYTFhNsdWp8fClWcoFyd3xcfnl5dXJue3wpboF9bndtfClWeG1udRYThBYTKSkpKX58bilRanxPamx9eHuCRBYTKSkpKXl7eH1ubH1ubSktfWprdW4pRikrdnKBcnd8aHx+eXl1cm57fCtEFhMWEykpKSl5e3h9bmx9bm0pLW9ydXVqa3VuKUYpZDB8fnl5dXJue2hybTA1KTBre2p3bHFocm0wNSkwfH55eXVybntod2p2bjA1FhMpKSkpKTB8fnl5dXJue2h2eGtydW4wNSkwfH55eXVybntofXh9anVogHJ9cW17aoBqdXwwNRYTKSkpKSkwfH55eXVybntofXh9anVoeWpybTA1KTB8fnl5dXJue2h9eH1qdWh7bnZqcncwNSkwdnKBcnd8aHx+eXl1cm57fGh3eDBmRBYTKSkpKXl+a3VybCktfXJ2bnx9anZ5fClGKW9qdXxuRBYTKSkpKXl7eH1ubH1ubSkteXtydmp7glRugilGKTB8fnl5dXJue2hybTBEFhMWE4YWEw==

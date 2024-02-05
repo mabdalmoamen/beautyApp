@@ -1,13 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class PayMethods extends Model
-{
-    use HasFactory;
-    protected $table = 'pay_methods';
-    protected $fillable = ['id', 'pay_method_name', 'pay_method_name_en'];
-}
+bolt_decrypt( __FILE__ , 'RPt4oT'); return 0;
+##!!!##GhcaF3tuenKAfW5wci1OfX1pWnxxcnmASBoXGheCgHItVnl5gnp2e26BcmlRboFub26AcmlSeXx+gnJ7gWlTbnCBfH92coBpVW6AU25wgXx/hkgaF4KAci1WeXmCenZ7boFyaVFugW5vboByaVJ5fH6CcnuBaVp8cXJ5SBoXGhdweW6AgC1dboZacoF1fHGALXKFgXJ7cYAtWnxxcnkaF4gaFy0tLS2CgHItVW6AU25wgXx/hkgaFy0tLS19f3yBcnCBcnEtMYFub3lyLUotNH1uhmx6coF1fHGANEgaFy0tLS19f3yBcnCBcnEtMXN2eXlub3lyLUotaDR2cTQ5LTR9boZsenKBdXxxbHtuenI0OS00fW6GbHpygXV8cWx7bnpybHJ7NGpIGheKGhc=

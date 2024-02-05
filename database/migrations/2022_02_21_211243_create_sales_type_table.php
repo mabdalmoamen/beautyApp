@@ -1,30 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateSalesTypeTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('sales_type', function (Blueprint $table) {
-            $table->id();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('sales_type');
-    }
-}
+bolt_decrypt( __FILE__ , 'sEdQZm'); return 0;
+##!!!##QT5BPqmnmVR9oKCpoZ2ilaiZkHiVqJWWlaeZkIGdm6aVqJ2joqeQgZ2bppWonaOib0E+qaeZVH2goKmhnaKVqJmQeJWolZaVp5mQh5ecmaGVkHagqZmkpp2iqG9BPqmnmVR9oKCpoZ2ilaiZkIeppKSjpqiQepWXlZiZp5CHl5yZoZVvQT5BPpeglaenVHemmZWomYeVoJmniK2kmYiVlqCZVJmsqJmimKdUgZ2bppWonaOiQT6vQT5UVFRUY15eQT5UVFRUVF5UhqmiVKicmVShnZumlaido6KnYkE+VFRUVFReQT5UVFRUVF5UdKaZqKmmolSqo52YQT5UVFRUVF5jQT5UVFRUpKmWoJ2XVJqpopeonaOiVKmkXF1BPlRUVFSvQT5UVFRUVFRUVIeXnJmhlW5ul6aZlaiZXFunlaCZp5OoraSZW2BUmqmil6ido6JUXHagqZmkpp2iqFRYqJWWoJldVK9BPlRUVFRUVFRUVFRUVFiolZagmWFynZhcXW9BPlRUVFRUVFRUsV1vQT5UVFRUsUE+QT5UVFRUY15eQT5UVFRUVF5UhpmqmaanmVSonJlUoZ2bppWonaOip2JBPlRUVFRUXkE+VFRUVFReVHSmmaippqJUqqOdmEE+VFRUVFReY0E+VFRUVKSplqCdl1SaqaKXqJ2jolSYo6uiXF1BPlRUVFSvQT5UVFRUVFRUVIeXnJmhlW5umKajpH2aeaydp6inXFunlaCZp5OoraSZW11vQT5UVFRUsUE+sUE+

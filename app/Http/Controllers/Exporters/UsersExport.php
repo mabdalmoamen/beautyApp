@@ -1,17 +1,3 @@
 <?php
-
-namespace App\Http\Controllers\Exporters;
-
-use App\Models\User;
-use Maatwebsite\Excel\Concerns\Exportable;
-use Maatwebsite\Excel\Concerns\FromCollection;
-
-class UsersExport implements FromCollection
-{
-    use Exportable;
-
-    public function collection()
-    {
-        return User::all();
-    }
-}
+bolt_decrypt( __FILE__ , 'NONc9n'); return 0;
+##!!!##Av8C/2NWYlpoZVZYWhU2ZWVRPWlpZVE4ZGNpZ2RhYVpnaFE6bWVkZ2laZ2gwAv8C/2poWhU2ZWVRQmRZWmFoUUpoWmcwAv9qaFoVQlZWaWxaV2heaVpROm1YWmFROGRjWFpnY2hROm1lZGdpVldhWjAC/2poWhVCVlZpbFpXaF5pWlE6bVhaYVE4ZGNYWmdjaFE7Z2RiOGRhYVpYaV5kYzAC/wL/WGFWaGgVSmhaZ2g6bWVkZ2kVXmJlYVpiWmNpaBU7Z2RiOGRhYVpYaV5kYwL/cAL/FRUVFWpoWhU6bWVkZ2lWV2FaMAL/Av8VFRUVZWpXYV5YFVtqY1hpXmRjFVhkYWFaWGleZGMdHgL/FRUVFXAC/xUVFRUVFRUVZ1ppamdjFUpoWmcvL1ZhYR0eMAL/FRUVFXIC/3IC/w==

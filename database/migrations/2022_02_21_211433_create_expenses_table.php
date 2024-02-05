@@ -1,35 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateExpensesTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('expenses', function (Blueprint $table) {
-            $table->id();
-            $table->String("expense_title")->nullable();
-            $table->decimal("expense_cost")->default(0.0);
-            $table->string("expense_icon")->nullable();
-            $table->timestamp("expense_date")->nullable();
-            $table->foreignId("user_id")->constrained("users")->nullable();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('expenses');
-    }
-}
+bolt_decrypt( __FILE__ , '8ZTrvj'); return 0;
+##!!!##RUJFQq2rnViBpKStpaGmmaydlHyZrJmamaudlIWhn6qZrKGnpquUhaGfqpmsoaemc0VCraudWIGkpK2loaaZrJ2UfJmsmZqZq52Ui5ugnaWZlHqkrZ2oqqGmrHNFQq2rnViBpKStpaGmmaydlIutqKinqqyUfpmbmZydq5SLm6CdpZlzRUJFQpukmaurWHuqnZmsnX2wqJ2mq52rjJmapJ1YnbCsnaacq1iFoZ+qmayhp6ZFQrNFQlhYWFhnYmJFQlhYWFhYYliKraZYrKCdWKWhn6qZrKGnpqtmRUJYWFhYWGJFQlhYWFhYYlh4qp2sraqmWK6noZxFQlhYWFhYYmdFQlhYWFiorZqkoZtYnq2mm6yhp6ZYrahgYUVCWFhYWLNFQlhYWFhYWFhYi5ugnaWZcnKbqp2ZrJ1gX52wqJ2mq52rX2RYnq2mm6yhp6ZYYHqkrZ2oqqGmrFhcrJmapJ1hWLNFQlhYWFhYWFhYWFhYWFysmZqknWV2oZxgYXNFQlhYWFhYWFhYWFhYWFysmZqknWV2i6yqoaafYFqdsKidpqudl6yhrKSdWmFldqatpKSZmqSdYGFzRUJYWFhYWFhYWFhYWFhcrJmapJ1ldpydm6GlmaRgWp2wqJ2mq52Xm6errFphZXacnZ6ZraSsYGhmaGFzRUJYWFhYWFhYWFhYWFhcrJmapJ1ldqusqqGmn2BanbConaarnZehm6emWmFldqatpKSZmqSdYGFzRUJYWFhYWFhYWFhYWFhcrJmapJ1ldqyhpZ2rrJmlqGBanbConaarnZecmaydWmFldqatpKSZmqSdYGFzRUJYWFhYWFhYWFhYWFhcrJmapJ1ldp6nqp2hn6aBnGBaraudqpehnFphZXabp6arrKqZoaadnGBaraudqqtaYWV2pq2kpJmapJ1gYXNFQlhYWFhYWFhYtWFzRUJYWFhYtUVCRUJYWFhYZ2JiRUJYWFhYWGJYip2unaqrnVisoJ1YpaGfqpmsoaemq2ZFQlhYWFhYYkVCWFhYWFhiWHiqnaytqqZYrqehnEVCWFhYWFhiZ0VCWFhYWKitmqShm1ieraabrKGnplicp6+mYGFFQlhYWFizRUJYWFhYWFhYWIuboJ2lmXJynKqnqIGefbChq6yrYF+dsKidpqudq19hc0VCWFhYWLVFQrVFQg==

@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateGustoStocksTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('gusto_stocks', function (Blueprint $table) {
-            $table->id();
-            $table->string("title")->nullable();
-            $table->decimal("stock")->nullable();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('gusto_stocks');
-    }
-}
+bolt_decrypt( __FILE__ , 'h8vTYn'); return 0;
+##!!!##Pjs+O6akllF6nZ2mnpqfkqWWjXWSpZKTkqSWjX6amKOSpZqgn6SNfpqYo5KlmqCfbD47pqSWUXqdnaaemp+SpZaNdZKlkpOSpJaNhJSZlp6SjXOdppaho5qfpWw+O6akllF6nZ2mnpqfkqWWjYSmoaGgo6WNd5KUkpWWpI2ElJmWnpJsPjs+O5SdkqSkUXSjlpKllnimpKWghKWglJykhZKTnZZRlqmllp+VpFF+mpijkqWaoJ8+O6w+O1FRUVFgW1s+O1FRUVFRW1GDpp9RpZmWUZ6amKOSpZqgn6RfPjtRUVFRUVs+O1FRUVFRW1Fxo5alpqOfUaegmpU+O1FRUVFRW2A+O1FRUVGhppOdmpRRl6aflKWaoJ9RpqFZWj47UVFRUaw+O1FRUVFRUVFRhJSZlp6Sa2uUo5aSpZZZWJimpKWgkKSloJScpFhdUZemn5SlmqCfUVlznaaWoaOan6VRVaWSk52WWlGsPjtRUVFRUVFRUVFRUVFVpZKTnZZeb5qVWVpsPjtRUVFRUVFRUVFRUVFVpZKTnZZeb6Slo5qfmFlTpZqlnZZTWl5vn6adnZKTnZZZWmw+O1FRUVFRUVFRUVFRUVWlkpOdll5vlZaUmp6SnVlTpKWglJxTWl5vn6adnZKTnZZZWmw+O1FRUVFRUVFRrlpsPjtRUVFRrj47PjtRUVFRYFtbPjtRUVFRUVtRg5anlqOkllGlmZZRnpqYo5KlmqCfpF8+O1FRUVFRWz47UVFRUVFbUXGjlqWmo59Rp6CalT47UVFRUVFbYD47UVFRUaGmk52alFGXpp+UpZqgn1GVoKifWVo+O1FRUVGsPjtRUVFRUVFRUYSUmZaekmtrlaOgoXqXdqmapKWkWViYpqSloJCkpaCUnKRYWmw+O1FRUVGuPjuuPjs=

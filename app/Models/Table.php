@@ -1,35 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Cache;
-
-class Table extends Model
-{
-    use HasFactory;
-    protected $table = "tables";
-    protected $fillable = [
-        'id', 'total',
-        'table_no', 'is_resrved',
-        'room', 'mini_charge', 'branch_id',
-        'isNoty',
-        'reserve_date', 'end_reserve_date', 'is_chair'
-    ];
-    protected $casts = [
-        'is_resrved' => 'boolean',
-        'isNoty' => 'boolean',
-        'is_chair' => 'boolean',
-
-    ];
-    protected static function boot()
-    {
-        parent::boot();
-
-        static::updated(function () {
-            return Cache::forget('activeChannels');
-        });
-    }
-    public $timestamps = false;
-}
+bolt_decrypt( __FILE__ , '89Npis'); return 0;
+##!!!##GBUYFXlseHB+e2xucCtMe3tnWHpvcHd+RhgVGBWAfnArVHd3gHh0eWx/cGdPbH9sbWx+cGdQd3p8gHB5f2dRbG5/en10cH5nU2x+UWxuf3p9hEYYFYB+cCtUd3eAeHR5bH9wZ09sf2xtbH5wZ1B3enyAcHl/Z1h6b3B3RhgVgH5wK1R3d4B4dHlsf3BnXoB7e3p9f2dRbG5sb3B+Z05sbnNwRhgVGBVud2x+fitfbG13cCtwg39weW9+K1h6b3B3GBWGGBUrKysrgH5wK1NsflFsbn96fYRGGBUrKysre316f3Buf3BvKy9/bG13cCtIKy1/bG13cH4tRhgVKysrK3t9en9wbn9wbysvcXR3d2xtd3ArSCtmGBUrKysrKysrKzJ0bzI3KzJ/en9sdzI3GBUrKysrKysrKzJ/bG13cGp5ejI3KzJ0fmp9cH59gXBvMjcYFSsrKysrKysrMn16engyNysyeHR5dGpuc2x9cnAyNysybX1seW5zanRvMjcYFSsrKysrKysrMnR+WXp/hDI3GBUrKysrKysrKzJ9cH5wfYFwam9sf3AyNysycHlvan1wfnB9gXBqb2x/cDI3KzJ0fmpuc2x0fTIYFSsrKytoRhgVKysrK3t9en9wbn9wbysvbmx+f34rSCtmGBUrKysrKysrKzJ0fmp9cH59gXBvMitISSsybXp6d3BseTI3GBUrKysrKysrKzJ0fll6f4QyK0hJKzJtenp3cGx5MjcYFSsrKysrKysrMnR+am5zbHR9MitISSsybXp6d3BseTI3GBUYFSsrKytoRhgVKysrK3t9en9wbn9wbyt+f2x/dG4rcYB5bn90enkrbXp6fzM0GBUrKysrhhgVKysrKysrKyt7bH1weX9FRW16en8zNEYYFRgVKysrKysrKyt+f2x/dG5FRYB7b2x/cG8zcYB5bn90enkrMzQrhhgVKysrKysrKysrKysrfXB/gH15K05sbnNwRUVxen1ycH8zMmxuf3SBcE5zbHl5cHd+MjRGGBUrKysrKysrK4g0RhgVKysrK4gYFSsrKyt7gG13dG4rL390eHB+f2x4e34rSCtxbHd+cEYYFYgYFQ==

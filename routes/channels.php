@@ -1,18 +1,3 @@
 <?php
-
-use Illuminate\Support\Facades\Broadcast;
-
-/*
-|--------------------------------------------------------------------------
-| Broadcast Channels
-|--------------------------------------------------------------------------
-|
-| Here you may register all of the event broadcasting channels that your
-| application supports. The given channel authorization callbacks are
-| used to check if an authenticated user can listen to the channel.
-|
-*/
-
-Broadcast::channel('App.Models.User.{id}', function ($user, $id) {
-    return (int) $user->id === (int) $id;
-});
+bolt_decrypt( __FILE__ , 'JUk6Nt'); return 0;
+##!!!##DwwPDHd1ZyJLbm53b2twY3ZnXlV3cnJxdHZeSGNlY2ZndV5EdHFjZmVjdXY9DwwPDDEsDwx+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8PDH4iRHRxY2ZlY3V2IkVqY3BwZ251Dwx+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8PDH4PDH4iSmd0ZyJ7cXcib2N7InRnaWt1dmd0ImNubiJxaCJ2amciZ3hncHYiZHRxY2ZlY3V2a3BpImVqY3BwZ251InZqY3Yie3F3dA8MfiJjcnJua2VjdmtxcCJ1d3JycXR2dTAiVmpnImlreGdwImVqY3BwZ24iY3d2anF0a3xjdmtxcCJlY25uZGNlbXUiY3RnDwx+Ind1Z2YidnEiZWpnZW0ia2giY3AiY3d2amdwdmtlY3ZnZiJ3dWd0ImVjcCJua3V2Z3AidnEidmpnImVqY3BwZ24wDwx+DwwsMQ8MDwxEdHFjZmVjdXY8PGVqY3BwZ24qKUNycjBPcWZnbnUwV3VndDB9a2Z/KS4iaHdwZXZrcXAiKiZ3dWd0LiIma2YrIn0PDCIiIiJ0Z3Z3dHAiKmtwdisiJnd1Z3QvQGtmIj8/PyIqa3B2KyIma2Y9Dwx/Kz0PDA==

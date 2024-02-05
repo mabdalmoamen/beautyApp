@@ -1,14 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class GustoStocks extends Model
-{
-    use HasFactory;
-    protected $table = "gusto_stocks";
-    protected $fillable = ['id','branch_id', 'title', 'stock', 'type_price'];
-    public $timestamps = false;
-}
+bolt_decrypt( __FILE__ , 'Xt9cBA'); return 0;
+##!!!##+PX49VlMWFBeW0xOUAssW1tHOFpPUFdeJvj1+PVgXlALNFdXYFhUWUxfUEcvTF9MTUxeUEcwV1pcYFBZX0cxTE5fWl1UUF5HM0xeMUxOX1pdZCb49WBeUAs0V1dgWFRZTF9QRy9MX0xNTF5QRzBXWlxgUFlfRzhaT1BXJvj1+PVOV0xeXgsyYF5fWj5fWk5WXgtQY19QWU9eCzhaT1BX+PVm+PULCwsLYF5QCzNMXjFMTl9aXWQm+PULCwsLW11aX1BOX1BPCw9fTE1XUAsoCw1SYF5fWkpeX1pOVl4NJvj1CwsLC1tdWl9QTl9QTwsPUVRXV0xNV1ALKAtGElRPEhcSTV1MWU5TSlRPEhcLEl9UX1dQEhcLEl5fWk5WEhcLEl9kW1BKW11UTlASSCb49QsLCwtbYE1XVE4LD19UWFBeX0xYW14LKAtRTFdeUCb49Wj49Q==

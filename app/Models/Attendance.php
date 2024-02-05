@@ -1,34 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use App\Models\Employee;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Cache;
-
-class Attendance extends Model
-
-{
-
-    protected $table = 'attendances';
-
-    protected $fillable = [
-        'uid', 'status',  'created_at', 'branch_id', 'leave_date', 'late_over'
-    ];
-    protected $casts = [
-        'status' => 'boolean',
-    ];
-
-    protected static function boot()
-    {
-        parent::boot();
-
-        static::updated(function () {
-            return Cache::forget('activeChannels');
-        });
-    }
-    public function user()
-    {
-        return $this->belongsTo(User::class, 'uid');
-    }
-}
+bolt_decrypt( __FILE__ , 'UrcYdU'); return 0;
+##!!!##SUZJRqqdqaGvrJ2foVx9rKyYiaugoaivd0lGSUaxr6FcfaysmImroKGor5iBqayoq7WhoXdJRrGvoVyFqKixqaWqnbChmICdsJ2ena+hmIGoq62xoaqwmImroKGod0lGsa+hXIWoqLGppaqdsKGYj7GsrKuusJiCnZ+doKGvmH+dn6Shd0lGSUafqJ2vr1x9sLChqqCdqp+hXKG0sKGqoK9ciaugoahJRklGt0lGSUZcXFxcrK6rsKGfsKGgXGCwnZ6ooVx5XGOdsLChqqCdqp+hr2N3SUZJRlxcXFysrquwoZ+woaBcYKKlqKidnqihXHlcl0lGXFxcXFxcXFxjsaWgY2hcY6+wnbCxr2NoXFxjn66hnbChoJudsGNoXGOerp2qn6SbpaBjaFxjqKGdsqGboJ2woWNoXGOonbChm6uyoa5jSUZcXFxcmXdJRlxcXFysrquwoZ+woaBcYJ+dr7CvXHlcl0lGXFxcXFxcXFxjr7CdsLGvY1x5elxjnqurqKGdqmNoSUZcXFxcmXdJRklGXFxcXKyuq7Chn7ChoFyvsJ2wpZ9corGqn7Clq6pcnqursGRlSUZcXFxct0lGXFxcXFxcXFysna6hqrB2dp6rq7BkZXdJRklGXFxcXFxcXFyvsJ2wpZ92drGsoJ2woaBkorGqn7Clq6pcZGVct0lGXFxcXFxcXFxcXFxcrqGwsa6qXH+dn6Shdnaiq66jobBkY52fsKWyoX+knaqqoaivY2V3SUZcXFxcXFxcXLlld0lGXFxcXLlJRlxcXFyssZ6opZ9corGqn7Clq6pcsa+hrmRlSUZcXFxct0lGXFxcXFxcXFyuobCxrqpcYLCkpa9pep6hqKuqo6+Qq2SRr6GudnafqJ2vr2hcY7GloGNld0lGXFxcXLlJRrlJRg==

@@ -1,37 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Cache;
-
-class Customer extends Model
-{
-    use HasFactory;
-    protected $table = "customers";
-    protected $guarded = [];
-    public $timestamps = false;
-    protected $primaryKey = 'cust_id';
-
-    protected $casts = [
-        'active_customer' => 'boolean',
-
-    ];
-    protected static function boot()
-    {
-        parent::boot();
-
-        static::updated(function () {
-            return Cache::forget('activeChannels');
-        });
-    }
-    public function bills()
-    {
-        return $this->hasMany('App\Models\Bill', 'bill_no', 'cust_id')->with(['billType', 'user', 'payMethods', 'returns']);
-    }
-    public function cashs()
-    {
-        return $this->hasMany('App\Models\CustomerPay', 'cust_id', 'cust_id')->with(['user', 'payMethods']);
-    }
-}
+bolt_decrypt( __FILE__ , 'QJyFUz'); return 0;
+##!!!##NjM2M5eKlo6cmYqMjklqmZmFdpiNjpWcZDYzNjOenI5JcpWVnpaSl4qdjoVtip2Ki4qcjoVulZiano6XnYVvioydmJuSjpyFcYqcb4qMnZibomQ2M56cjklylZWelpKXip2OhW2KnYqLipyOhW6VmJqejpedhXaYjY6VZDYznpyOSXKVlZ6WkpeKnY6FfJ6ZmZibnYVvioyKjY6chWyKjJGOZDYzNjOMlYqcnElsnpydmJaOm0mOoZ2Ol42cSXaYjY6VNjOkNjNJSUlJnpyOSXGKnG+KjJ2Ym6JkNjNJSUlJmZuYnY6MnY6NSU2diouVjklmSUuMnpydmJaOm5xLZDYzSUlJSZmbmJ2OjJ2OjUlNkJ6Km42OjUlmSYSGZDYzSUlJSZmei5WSjElNnZKWjpydipaZnElmSY+KlZyOZDYzSUlJSZmbmJ2OjJ2OjUlNmZuSloqbonSOoklmSVCMnpydiJKNUGQ2MzYzSUlJSZmbmJ2OjJ2OjUlNjIqcnZxJZkmENjNJSUlJSUlJSVCKjJ2Sn46IjJ6cnZiWjptQSWZnSVCLmJiVjoqXUFU2MzYzSUlJSYZkNjNJSUlJmZuYnY6MnY6NSZydip2SjEmPnpeMnZKYl0mLmJidUVI2M0lJSUmkNjNJSUlJSUlJSZmKm46XnWNji5iYnVFSZDYzNjNJSUlJSUlJSZydip2SjGNjnpmNip2OjVGPnpeMnZKYl0lRUkmkNjNJSUlJSUlJSUlJSUmbjp2em5dJbIqMkY5jY4+Ym5COnVFQioydkp+ObJGKl5eOlZxQUmQ2M0lJSUlJSUlJplJkNjNJSUlJpjYzSUlJSZmei5WSjEmPnpeMnZKYl0mLkpWVnFFSNjNJSUlJpDYzSUlJSUlJSUmbjp2em5dJTZ2RkpxWZ5GKnHaKl6JRUGqZmYV2mI2OlZyFa5KVlVBVSVCLkpWViJeYUFVJUIyenJ2Iko1QUlZnoJKdkVGEUIuSlZV9opmOUFVJUJ6cjptQVUlQmYqido6dkZiNnFBVSVCbjp2em5ecUIZSZDYzSUlJSaY2M0lJSUmZnouVkoxJj56XjJ2SmJdJjIqckZxRUjYzSUlJSaQ2M0lJSUlJSUlJm46dnpuXSU2dkZKcVmeRipx2ipeiUVBqmZmFdpiNjpWchWyenJ2Ylo6beYqiUFVJUIyenJ2Iko1QVUlQjJ6cnYiSjVBSVmegkp2RUYRQnpyOm1BVSVCZiqJ2jp2RmI2cUIZSZDYzSUlJSaY2M6Y2Mw==

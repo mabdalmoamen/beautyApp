@@ -1,25 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class TypeUnits extends Model
-{
-    use HasFactory;
-    protected $table = "type_units";
-    protected $fillable = ['type_unit_id', 'branch_id', 'price', 'type_id',
-     'unit_id', 'no_of_unit', 'deff_price', 'barcode'];
-    public $timestamps = false;
-    protected $primaryKey = 'type_unit_id';
-
-    public function unit()
-    {
-        return $this->hasOne('App\Models\Unit', 'unit_id', 'unit_id');
-    }
-    public function type()
-    {
-        return $this->hasOne('App\Models\type', 'type_id', 'type_id')->with('units', 'typeStock','type_request', 'mainType', 'sell_unit');
-    }
-}
+bolt_decrypt( __FILE__ , 'aTqqFy'); return 0;
+##!!!##Y2BjYMS3w7vJxre5u3aXxsayo8W6u8LJkWNgY2DLybt2n8LCy8O/xLfKu7Kat8q3uLfJu7KbwsXHy7vEyrKct7nKxci/u8mynrfJnLe5ysXIz5FjYMvJu3afwsLLw7/Et8q7spq3yre4t8m7spvCxcfLu8TKsqPFurvCkWNgY2C5wrfJyXaqz8a7q8S/ysl2u87Ku8S6yXajxbq7wmNg0WNgdnZ2dsvJu3aet8mct7nKxcjPkWNgdnZ2dsbIxcq7ucq7unZ6yre4wrt2k3Z4ys/Gu7XLxL/KyXiRY2B2dnZ2xsjFyru5yru6dnq8v8LCt7jCu3aTdrF9ys/Gu7XLxL/Ktb+6fYJ2fbjIt8S5vrW/un2Cdn3GyL+5u32Cdn3Kz8a7tb+6fYJjYHZ2dnZ2fcvEv8q1v7p9gnZ9xMW1xby1y8S/yn2Cdn26u7y8tcbIv7m7fYJ2fbi3yLnFurt9s5FjYHZ2dnbGy7jCv7l2esq/w7vJyrfDxsl2k3a8t8LJu5FjYHZ2dnbGyMXKu7nKu7p2esbIv8O3yM+hu892k3Z9ys/Gu7XLxL/Ktb+6fZFjYGNgdnZ2dsbLuMK/uXa8y8S5yr/FxHbLxL/Kfn9jYHZ2dnbRY2B2dnZ2dnZ2dsi7ysvIxHZ6yr6/yYOUvrfJpcS7fn2Xxsayo8W6u8LJsqvEv8p9gnZ9y8S/yrW/un2Cdn3LxL/Ktb+6fX+RY2B2dnZ202NgdnZ2dsbLuMK/uXa8y8S5yr/FxHbKz8a7fn9jYHZ2dnbRY2B2dnZ2dnZ2dsi7ysvIxHZ6yr6/yYOUvrfJpcS7fn2Xxsayo8W6u8LJssrPxrt9gnZ9ys/Gu7W/un2Cdn3Kz8a7tb+6fX+DlM2/yr5+fcvEv8rJfYJ2fcrPxrupysW5wX2CfcrPxru1yLvHy7vJyn2Cdn3Dt7/Eqs/Gu32Cdn3Ju8LCtcvEv8p9f5FjYHZ2dnbTY2DTY2A=

@@ -1,16 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Unit extends Model
-{
-    use HasFactory;
-    public $timestamps = false;
-
-    protected $fillable = ['unit_id', 'branch_id', 'unit_ar_name', 'unit_en_name'];
-    protected $primaryKey = 'unit_id';
-
-}
+bolt_decrypt( __FILE__ , 'VdqLLK'); return 0;
+##!!!##GxgbGHxve3OBfm9xcy5Pfn5qW31yc3qBSRsYGxiDgXMuV3p6g3t3fG+Cc2pSb4JvcG+Bc2pTen1/g3N8gmpUb3GCfYB3c4FqVm+BVG9xgn2Ah0kbGIOBcy5XenqDe3d8b4JzalJvgm9wb4FzalN6fX+Dc3yCalt9cnN6SRsYGxhxem+BgS5jfHeCLnOGgnN8coEuW31yc3obGIkbGC4uLi6DgXMuVm+BVG9xgn2Ah0kbGC4uLi5+g3B6d3EuMoJ3e3OBgm97foEuSy50b3qBc0kbGBsYLi4uLn6AfYJzcYJzci4ydHd6em9wenMuSy5pNYN8d4Jtd3I1Oi41cIBvfHF2bXdyNTouNYN8d4Jtb4BtfG97czU6LjWDfHeCbXN8bXxve3M1a0kbGC4uLi5+gH2Cc3GCc3IuMn6Ad3tvgIdZc4cuSy41g3x3gm13cjVJGxgbGIsbGA==

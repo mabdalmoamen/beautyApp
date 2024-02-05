@@ -1,35 +1,3 @@
 <?php
-
-namespace App\Http\Controllers;
-
-use App\Models\Bill;
-use App\Models\Type;
-
-class TrashController extends Controller
-{
-    //
-    public function index()
-    {
-        return View('trash.index');
-    }
-    public function bills()
-    {
-        return json_encode(Bill::where('is_deleted', true)->get());
-    }
-    public function types()
-    {
-        return json_encode(Type::where('is_deleted', true)->get());
-    }
-    public function restore($id)
-    {
-        Type::where('type_id', $id)->update(['is_deleted' => false]);
-    }
-    public function restoreBill($id)
-    {
-        Bill::where('bill_no', $id)->update(['is_deleted' => false, 'delete_date' => null]);
-    }
-    public function delete($id)
-    {
-        Bill::where('bill_no', $id)->delete();
-    }
-}
+bolt_decrypt( __FILE__ , 'UL7yKQ'); return 0;
+##!!!##+vf691tOWlJgXU5QUg0uXV1JNWFhXUkwXFthX1xZWVJfYCj69/r3YmBSDS5dXUk6XFFSWWBJL1ZZWSj692JgUg0uXV1JOlxRUllgSUFmXVIo+vf691BZTmBgDUFfTmBVMFxbYV9cWVlSXw1SZWFSW1FgDTBcW2FfXFlZUl/692j69w0NDQ0cHPr3DQ0NDV1iT1lWUA1TYltQYVZcWw1WW1FSZRUW+vcNDQ0NaPr3DQ0NDQ0NDQ1fUmFiX1sNQ1ZSZBUUYV9OYFUbVltRUmUUFij69w0NDQ1q+vcNDQ0NXWJPWVZQDVNiW1BhVlxbDU9WWVlgFRb69w0NDQ1o+vcNDQ0NDQ0NDV9SYWJfWw1XYFxbTFJbUFxRUhUvVllZJydkVVJfUhUUVmBMUVJZUmFSURQZDWFfYlIWGitUUmEVFhYo+vcNDQ0Navr3DQ0NDV1iT1lWUA1TYltQYVZcWw1hZl1SYBUW+vcNDQ0NaPr3DQ0NDQ0NDQ1fUmFiX1sNV2BcW0xSW1BcUVIVQWZdUicnZFVSX1IVFFZgTFFSWVJhUlEUGQ1hX2JSFhorVFJhFRYWKPr3DQ0NDWr69w0NDQ1dYk9ZVlANU2JbUGFWXFsNX1JgYVxfUhURVlEW+vcNDQ0NaPr3DQ0NDQ0NDQ1BZl1SJydkVVJfUhUUYWZdUkxWURQZDRFWURYaK2JdUU5hUhVIFFZgTFFSWVJhUlEUDSorDVNOWWBSShYo+vcNDQ0Navr3DQ0NDV1iT1lWUA1TYltQYVZcWw1fUmBhXF9SL1ZZWRURVlEW+vcNDQ0NaPr3DQ0NDQ0NDQ0vVllZJydkVVJfUhUUT1ZZWUxbXBQZDRFWURYaK2JdUU5hUhVIFFZgTFFSWVJhUlEUDSorDVNOWWBSGQ0UUVJZUmFSTFFOYVIUDSorDVtiWVlKFij69w0NDQ1q+vcNDQ0NXWJPWVZQDVNiW1BhVlxbDVFSWVJhUhURVlEW+vcNDQ0NaPr3DQ0NDQ0NDQ0vVllZJydkVVJfUhUUT1ZZWUxbXBQZDRFWURYaK1FSWVJhUhUWKPr3DQ0NDWr692r69w==

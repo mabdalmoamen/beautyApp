@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateMixinsMainTypesTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('mixins_main_types', function (Blueprint $table) {
-            $table->bigIncrements("main_type_id");
-            $table->string("main_type_title_ar")->nullable();;
-            $table->String("main_type_title_en")->nullable();;
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('mixins_main_types');
-    }
-}
+bolt_decrypt( __FILE__ , 'ugcbcX'); return 0;
+##!!!##aWZpZtHPwXylyMjRycXKvdDBuKC90L2+vc/BuKnFw8690MXLys+4qcXDzr3QxcvKl2lm0c/BfKXIyNHJxcq90MG4oL3Qvb69z8G4r7/Ewcm9uJ7I0cHMzsXK0JdpZtHPwXylyMjRycXKvdDBuK/RzMzLztC4or2/vcDBz7ivv8TByb2XaWZpZr/Ivc/PfJ/Owb3QwanF1MXKz6m9xcqw1czBz7C9vsjBfMHU0MHKwM98qcXDzr3QxcvKaWbXaWZ8fHx8i4aGaWZ8fHx8fIZ8rtHKfNDEwXzJxcPOvdDFy8rPimlmfHx8fHyGaWZ8fHx8fIZ8nM7B0NHOynzSy8XAaWZ8fHx8fIaLaWZ8fHx8zNG+yMW/fMLRyr/QxcvKfNHMhIVpZnx8fHzXaWZ8fHx8fHx8fK+/xMHJvZaWv87BvdDBhIPJxdTFys+7yb3FyrvQ1czBz4OIfMLRyr/QxcvKfISeyNHBzM7FytB8gNC9vsjBhXzXaWZ8fHx8fHx8fHx8fHyA0L2+yMGJmr7Fw6XKv87BycHK0M+Efsm9xcq70NXMwbvFwH6Fl2lmfHx8fHx8fHx8fHx8gNC9vsjBiZrP0M7FysOEfsm9xcq70NXMwbvQxdDIwbu9zn6FiZrK0cjIvb7IwYSFl5dpZnx8fHx8fHx8fHx8fIDQvb7IwYmar9DOxcrDhH7JvcXKu9DVzMG70MXQyMG7wcp+hYmaytHIyL2+yMGEhZeXaWZ8fHx8fHx8fNmFl2lmfHx8fNlpZmlmfHx8fIuGhmlmfHx8fHyGfK7B0sHOz8F80MTBfMnFw8690MXLys+KaWZ8fHx8fIZpZnx8fHx8hnyczsHQ0c7KfNLLxcBpZnx8fHx8hotpZnx8fHzM0b7Ixb98wtHKv9DFy8p8wMvTyoSFaWZ8fHx812lmfHx8fHx8fHyvv8TByb2WlsDOy8ylwqHUxc/Qz4SDycXUxcrPu8m9xcq70NXMwc+DhZdpZnx8fHzZaWbZaWY=

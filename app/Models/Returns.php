@@ -1,24 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Returns extends Model
-{
-    use HasFactory;
-    protected $table = "returns";
-    protected $fillable = ['return_id', 'branch_id',
-     'bill_no', 'vat', 'sum', 'total'];
-    protected $primaryKey = 'return_id';
-
-    public function returnTypes()
-    {
-        return $this->hasMany('App\Models\ReturnTypes', 'return_id', 'return_id')->with('type');
-    }
-    public function user()
-    {
-        return $this->hasOne('App\Models\User', 'id', 'user_id');
-    }
-}
+bolt_decrypt( __FILE__ , 'ni2qcO'); return 0;
+##!!!##OTY5NpqNmZGfnI2PkUxtnJyIeZuQkZifZzk2OTahn5FMdZiYoZmVmo2gkYhwjaCNjo2fkYhxmJudoZGaoIhyjY+gm56VkZ+IdI2fco2PoJuepWc5NqGfkUx1mJihmZWajaCRiHCNoI2OjZ+RiHGYm52hkZqgiHmbkJGYZzk2OTaPmI2fn0x+kaChnpqfTJGkoJGakJ9MeZuQkZg5Nqc5NkxMTEyhn5FMdI2fco2PoJuepWc5NkxMTEycnpugkY+gkZBMUKCNjpiRTGlMTp6RoKGemp9OZzk2TExMTJyem6CRj6CRkExQkpWYmI2OmJFMaUyHU56RoKGemouVkFNYTFOOno2aj5SLlZBTWDk2TExMTExTjpWYmIuam1NYTFOijaBTWExTn6GZU1hMU6CboI2YU4lnOTZMTExMnJ6boJGPoJGQTFCcnpWZjZ6ld5GlTGlMU56RoKGemouVkFNnOTY5NkxMTEycoY6YlY9MkqGaj6CVm5pMnpGgoZ6agKWckZ9UVTk2TExMTKc5NkxMTExMTExMnpGgoZ6aTFCglJWfWWqUjZ95jZqlVFNtnJyIeZuQkZifiH6RoKGemoClnJGfU1hMU56RoKGemouVkFNYTFOekaChnpqLlZBTVVlqo5WglFRToKWckVNVZzk2TExMTKk5NkxMTEycoY6YlY9MkqGaj6CVm5pMoZ+RnlRVOTZMTExMpzk2TExMTExMTEyekaChnppMUKCUlZ9ZapSNn3uakVRTbZyciHmbkJGYn4iBn5GeU1hMU5WQU1hMU6GfkZ6LlZBTVWc5NkxMTEypOTapOTY=

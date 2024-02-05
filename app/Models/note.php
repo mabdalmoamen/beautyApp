@@ -1,17 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class note extends Model
-{
-    use HasFactory;
-    protected $table = "notes";
-    protected $fillable = ['id', 'branch_id', 'type_id','note'];
-    public function type()
-    {
-        return $this->hasOne('App\Models\Type', 'type_id', 'id');
-    }
-}
+bolt_decrypt( __FILE__ , 'AnNnyV'); return 0;
+##!!!##R0RHRKibp5+tqpudn1p7qqqWh6men6atdUdER0SvrZ9ag6amr6ejqJuun5Z+m66bnJutn5Z/pqmrr5+orpaAm52uqayjn62WgputgJudrqmss3VHRK+tn1qDpqavp6Oom66fln6brpucm62fln+mqauvn6iuloepnp+mdUdER0SdpputrVqoqa6fWp+yrp+onq1ah6men6ZHRLVHRFpaWlqvrZ9agputgJudrqmss3VHRFpaWlqqrKmun52un55aXq6bnKafWndaXKiprp+tXHVHRFpaWlqqrKmun52un55aXqCjpqabnKafWndalWGjnmFmWmGcrJuonaKZo55hZlphrrOqn5mjnmFmYaiprp9hl3VHRFpaWlqqr5ymo51aoK+ona6jqaharrOqn2JjR0RaWlpatUdEWlpaWlpaWlqsn66vrKhaXq6io61neKKbrYmon2Jhe6qqloepnp+mrZaOs6qfYWZaYa6zqp+Zo55hZlpho55hY3VHRFpaWlq3R0S3R0Q=

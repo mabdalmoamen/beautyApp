@@ -1,16 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use phpDocumentor\Reflection\Types\Boolean;
-
-class MixinsRoles extends Model
-{
-    use HasFactory;
-    protected $table = "mixins_roles";
-    protected $fillable = ['role_id', 'branch_id', 'role_name', 'is_admin_role'];
-    protected $primaryKey = 'role_id';
-
-}
+bolt_decrypt( __FILE__ , 'Esoure'); return 0;
+##!!!##gH2AfeHU4Njm49TW2JO04+PPwOLX2N/mroB9gH3o5tiTvN/f6ODc4dTn2M+31OfU1dTm2M+43+Lk6Njh58+51Nbn4uXc2ObPu9TmudTW5+Ll7K6Afejm2JO839/o4Nzh1OfYz7fU59TV1ObYz7jf4uTo2OHnz8Di19jfroB96ObYk+Pb47fi1ujg2OHn4uXPxdjZ39jW59zi4c/H7OPY5s+14uLf2NThroB9gH3W39Tm5pPA3Ovc4ebF4t/Y5pPY6+fY4dfmk8Di19jfgH3ugH2Tk5OT6ObYk7vU5rnU1ufi5eyugH2Tk5OT4+Xi59jW59jXk5fn1NXf2JOwk5Xg3Ovc4ebS5eLf2OaVroB9k5OTk+Pl4ufY1ufY15OX2dzf39TV39iTsJPOmuXi39jS3Nean5Oa1eXU4dbb0tzXmp+TmuXi39jS4dTg2Jqfk5rc5tLU1+Dc4dLl4t/YmtCugH2Tk5OT4+Xi59jW59jXk5fj5dzg1OXsvtjsk7CTmuXi39jS3NearoB9gH3wgH0=

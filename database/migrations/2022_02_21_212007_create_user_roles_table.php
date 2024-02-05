@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateUserRolesTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('user_roles', function (Blueprint $table) {
-            $table->bigIncrements("user_role_id");
-            $table->foreignId("mixins_role")->constrained("mixins_roles", "role_id");
-            $table->foreignId("user_id")->constrained("users");
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('user_roles');
-    }
-}
+bolt_decrypt( __FILE__ , '4KQ7bh'); return 0;
+##!!!##3tve20ZENvEaPT1GPjo/MkU2LRUyRTIzMkQ2LR46OEMyRTpAP0QtHjo4QzJFOkA/DN7bRkQ28Ro9PUY+Oj8yRTYtFTJFMjMyRDYtJDQ5Nj4yLRM9RjZBQzo/RQze20ZENvEaPT1GPjo/MkU2LSRGQUFAQ0UtFzI0MjU2RC0kNDk2PjIM3tve2zQ9MkRE8RRDNjJFNiZENkMjQD02RCUyMz028TZJRTY/NUTxHjo4QzJFOkA/3ttM3tvx8fHxAPv73tvx8fHx8fvxI0Y/8UU5NvE+OjhDMkU6QD9E/97b8fHx8fH73tvx8fHx8fvxEUM2RUZDP/FHQDo13tvx8fHx8fsA3tvx8fHxQUYzPTo08TdGPzRFOkA/8UZB+fre2/Hx8fFM3tvx8fHx8fHx8SQ0OTY+MgsLNEM2MkU2+fhGRDZDMENAPTZE+P3xN0Y/NEU6QD/x+RM9RjZBQzo/RfH1RTIzPTb68Uze2/Hx8fHx8fHx8fHx8fVFMjM9Nv4PMzo4Gj80QzY+Nj9FRPnzRkQ2QzBDQD02MDo18/oM3tvx8fHx8fHx8fHx8fH1RTIzPTb+DzdAQzY6OD8aNfnzPjpJOj9EMENAPTbz+v4PNEA/REVDMjo/NjX58z46STo/RDBDQD02RPP98fNDQD02MDo18/oM3tvx8fHx8fHx8fHx8fH1RTIzPTb+DzdAQzY6OD8aNfnzRkQ2QzA6NfP6/g80QD9ERUMyOj82NfnzRkQ2Q0Tz+gze2/Hx8fHx8fHxTvoM3tvx8fHxTt7b3tvx8fHxAPv73tvx8fHx8fvxIzZHNkNENvFFOTbxPjo4QzJFOkA/RP/e2/Hx8fHx+97b8fHx8fH78RFDNkVGQz/xR0A6Nd7b8fHx8fH7AN7b8fHx8UFGMz06NPE3Rj80RTpAP/E1QEg/+fre2/Hx8fFM3tvx8fHx8fHx8SQ0OTY+MgsLNUNAQRo3Fkk6REVE+fhGRDZDMENAPTZE+PoM3tvx8fHxTt7bTt7b

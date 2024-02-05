@@ -1,30 +1,3 @@
 <?php
-
-namespace App\Http\Controllers\Auth;
-
-use App\Http\Controllers\Controller;
-use App\Providers\RouteServiceProvider;
-use Illuminate\Foundation\Auth\ResetsPasswords;
-
-class ResetPasswordController extends Controller
-{
-    /*
-    |--------------------------------------------------------------------------
-    | Password Reset Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller is responsible for handling password reset requests
-    | and uses a simple trait to include this behavior. You're free to
-    | explore this trait and override any methods you wish to tweak.
-    |
-    */
-
-    use ResetsPasswords;
-
-    /**
-     * Where to redirect users after resetting their password.
-     *
-     * @var string
-     */
-    protected $redirectTo = RouteServiceProvider::HOME;
-}
+bolt_decrypt( __FILE__ , '1klPLj'); return 0;
+##!!!##GxgbGHxve3OBfm9xcy5Pfn5qVoKCfmpRfXyCgH16enOAgWpPg4J2SRsYGxiDgXMuT35+alaCgn5qUX18goB9enpzgIFqUX18goB9enpzgEkbGIOBcy5Pfn5qXoB9hHdyc4CBamB9g4JzYXOAhHdxc16AfYR3cnOASRsYg4FzLld6eoN7d3xvgnNqVH2DfHJvgnd9fGpPg4J2amBzgXOCgV5vgYGFfYBygUkbGBsYcXpvgYEuYHOBc4Jeb4GBhX2AclF9fIKAfXp6c4Auc4aCc3xygS5RfXyCgH16enOAGxiJGxguLi4uPTgbGC4uLi6KOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsbGC4uLi6KLl5vgYGFfYByLmBzgXOCLlF9fIKAfXp6c4AbGC4uLi6KOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsbGC4uLi6KGxguLi4uii5idneBLnF9fIKAfXp6c4Aud4EugHOBfn18gXdwenMudH2ALnZvfHJ6d3x1Ln5vgYGFfYByLoBzgXOCLoBzf4NzgYKBGxguLi4uii5vfHIug4FzgS5vLoF3e356cy6CgG93gi6CfS53fHF6g3JzLoJ2d4EucHN2b4R3fYA8Lmd9gzWAcy50gHNzLoJ9GxguLi4uii5zhn56fYBzLoJ2d4EugoBvd4Iub3xyLn2Ec4CAd3JzLm98hy57c4J2fXKBLod9gy6Fd4F2LoJ9LoKFc295PBsYLi4uLoobGC4uLi44PRsYGxguLi4ug4FzLmBzgXOCgV5vgYGFfYBygUkbGBsYLi4uLj04OBsYLi4uLi44LmV2c4BzLoJ9LoBzcneAc3GCLoOBc4CBLm90gnOALoBzgXOCgnd8dS6CdnN3gC5+b4GBhX2AcjwbGC4uLi4uOBsYLi4uLi44Lk6Eb4AugYKAd3x1GxguLi4uLjg9GxguLi4ufoB9gnNxgnNyLjKAc3J3gHNxgmJ9LksuYH2DgnNhc4CEd3FzXoB9hHdyc4BISFZdW1NJGxiLGxg=

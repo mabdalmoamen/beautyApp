@@ -1,14 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Point extends Model
-{
-    use HasFactory;
-    protected $guarded = [];
-    public $timestamps = false;
-
-}
+bolt_decrypt( __FILE__ , '0zXwBi'); return 0;
+##!!!##MS4xLpKFkYmXlIWHiURllJSAcZOIiZCXXzEuMS6Zl4lEbZCQmZGNkoWYiYBohZiFhoWXiYBpkJOVmYmSmIBqhYeYk5aNiZeAbIWXaoWHmJOWnV8xLpmXiURtkJCZkY2ShZiJgGiFmIWGhZeJgGmQk5WZiZKYgHGTiImQXzEuMS6HkIWXl0R0k42SmESJnJiJkoiXRHGTiImQMS6fMS5EREREmZeJRGyFl2qFh5iTlp1fMS5ERERElJaTmImHmImIREiLmYWWiImIRGFEf4FfMS5ERERElJmGkI2HREiYjZGJl5iFkZSXRGFEioWQl4lfMS4xLqExLg==

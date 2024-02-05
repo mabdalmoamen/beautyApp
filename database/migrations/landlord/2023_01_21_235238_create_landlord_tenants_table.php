@@ -1,19 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateLandlordTenantsTable extends Migration
-{
-    public function up()
-    {
-        Schema::create('tenants', function (Blueprint $table) {
-            $table->id();
-            $table->string('name');
-            $table->string('domain')->unique();
-            $table->string('database')->unique();
-            $table->timestamps();
-        });
-    }
-}
+bolt_decrypt( __FILE__ , 'T1GJwt'); return 0;
+##!!!##DgsOC3Z0ZiFKbW12bmpvYnVmXUVidWJjYnRmXU5qaHNidWpwb3RdTmpoc2J1anBvPA4LdnRmIUptbXZuam9idWZdRWJ1YmNidGZdVGRpZm5iXUNtdmZxc2pvdTwOC3Z0ZiFKbW12bmpvYnVmXVR2cXFwc3VdR2JkYmVmdF1UZGlmbmI8DgsOC2RtYnR0IURzZmJ1Zk1ib2VtcHNlVWZvYm91dFViY21mIWZ5dWZvZXQhTmpoc2J1anBvDgt8DgshISEhcXZjbWpkIWd2b2R1anBvIXZxKSoOCyEhISF8DgshISEhISEhIVRkaWZuYjs7ZHNmYnVmKSh1Zm9ib3V0KC0hZ3ZvZHVqcG8hKUNtdmZxc2pvdSEldWJjbWYqIXwOCyEhISEhISEhISEhISV1YmNtZi4/amUpKjwOCyEhISEhISEhISEhISV1YmNtZi4/dHVzam9oKShvYm5mKCo8DgshISEhISEhISEhISEldWJjbWYuP3R1c2pvaCkoZXBuYmpvKCouP3ZvanJ2ZikqPA4LISEhISEhISEhISEhJXViY21mLj90dXNqb2gpKGVidWJjYnRmKCouP3ZvanJ2ZikqPA4LISEhISEhISEhISEhJXViY21mLj91am5mdHVibnF0KSo8DgshISEhISEhIX4qPA4LISEhIX4OC34OCw==

@@ -1,21 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class MixinsItemRequest extends Model
-{
-    use HasFactory;
-    protected $table = "mixins_item_request";
-    protected $fillable = ['mixins_item_request_id',
-     'add_to_request', 'type_request', 'branch_id',
-      'added_request_date'];
-    protected $primaryKey = 'mixins_item_request_id';
-
-    public function type()
-    {
-        return $this->hasOne('App\Models\Type', 'type_id', 'type_request');
-    }
-}
+bolt_decrypt( __FILE__ , 'btKpVG'); return 0;
+##!!!##Ozg7OJyPm5Ohno+Rk05vnp6Ke52Sk5qhaTs4OzijoZNOd5qao5uXnI+ik4pyj6KPkI+hk4pzmp2fo5Ocoop0j5GinaCXk6GKdo+hdI+Rop2gp2k7OKOhk053mpqjm5ecj6KTinKPoo+Qj6GTinOanZ+jk5yiinudkpOaaTs4OziRmo+hoU57l6aXnKF3opObgJOfo5Ohok6TpqKTnJKhTnudkpOaOzipOzhOTk5Oo6GTTnaPoXSPkaKdoKdpOzhOTk5OnqCdopORopOSTlKij5Cak05rTlCbl6aXnKGNl6KTm42gk5+jk6GiUGk7OE5OTk6eoJ2ik5Gik5JOUpSXmpqPkJqTTmtOiVWbl6aXnKGNl6KTm42gk5+jk6GijZeSVVo7OE5OTk5OVY+Sko2inY2gk5+jk6GiVVpOVaKnnpONoJOfo5OholVaTlWQoI+ckZaNl5JVWjs4Tk5OTk5OVY+SkpOSjaCTn6OToaKNko+ik1WLaTs4Tk5OTp6gnaKTkaKTkk5SnqCXm4+gp3mTp05rTlWbl6aXnKGNl6KTm42gk5+jk6GijZeSVWk7ODs4Tk5OTp6jkJqXkU6Uo5yRopednE6ip56TVlc7OE5OTk6pOzhOTk5OTk5OTqCToqOgnE5SopaXoVtslo+hfZyTVlVvnp6Ke52Sk5qhioKnnpNVWk5Voqeek42XklVaTlWip56TjaCTn6OToaJVV2k7OE5OTk6rOzirOzg=

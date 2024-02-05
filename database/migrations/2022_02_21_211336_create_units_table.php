@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateUnitsTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('units', function (Blueprint $table) {
-            $table->bigIncrements("unit_id");
-            $table->string("unit_ar_name")->nullable();
-            $table->string("unit_en_name")->nullable();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('units');
-    }
-}
+bolt_decrypt( __FILE__ , 'ch0MIj'); return 0;
+##!!!##CAUIBXBuYBtEZ2dwaGRpXG9gVz9cb1xdXG5gV0hkYm1cb2RqaW5XSGRibVxvZGppNggFcG5gG0RnZ3BoZGlcb2BXP1xvXF1cbmBXTl5jYGhcVz1ncGBrbWRpbzYIBXBuYBtEZ2dwaGRpXG9gV05wa2tqbW9XQVxeXF9gbldOXmNgaFw2CAUIBV5nXG5uGz5tYFxvYFBpZG9uT1xdZ2AbYHNvYGlfbhtIZGJtXG9kamkIBXYIBRsbGxsqJSUIBRsbGxsbJRtNcGkbb2NgG2hkYm1cb2RqaW4pCAUbGxsbGyUIBRsbGxsbJRs7bWBvcG1pG3FqZF8IBRsbGxsbJSoIBRsbGxtrcF1nZF4bYXBpXm9kamkbcGsjJAgFGxsbG3YIBRsbGxsbGxsbTl5jYGhcNTVebWBcb2AjInBpZG9uIicbYXBpXm9kamkbIz1ncGBrbWRpbxsfb1xdZ2AkG3YIBRsbGxsbGxsbGxsbGx9vXF1nYCg5XWRiRGlebWBoYGlvbiMdcGlkb1pkXx0kNggFGxsbGxsbGxsbGxsbH29cXWdgKDlub21kaWIjHXBpZG9aXG1aaVxoYB0kKDlpcGdnXF1nYCMkNggFGxsbGxsbGxsbGxsbH29cXWdgKDlub21kaWIjHXBpZG9aYGlaaVxoYB0kKDlpcGdnXF1nYCMkNggFGxsbGxsbGxt4JDYIBRsbGxt4CAUIBRsbGxsqJSUIBRsbGxsbJRtNYHFgbW5gG29jYBtoZGJtXG9kamluKQgFGxsbGxslCAUbGxsbGyUbO21gb3BtaRtxamRfCAUbGxsbGyUqCAUbGxsba3BdZ2ReG2FwaV5vZGppG19qcmkjJAgFGxsbG3YIBRsbGxsbGxsbTl5jYGhcNTVfbWprRGFAc2Rub24jInBpZG9uIiQ2CAUbGxsbeAgFeAgF

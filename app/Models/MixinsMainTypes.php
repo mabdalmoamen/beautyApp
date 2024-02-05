@@ -1,26 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class MixinsMainTypes extends Model
-{
-    use HasFactory;
-    protected $table = 'mixins_main_types';
-    protected  $fillable = ['main_type_id', 'type_icon',
-    'printer_name', 'bill_type', 'branch_id', 'number_of_copies',
-    'main_type_title_ar', 'main_type_title_en', 'mixins_main_types_no'];
-    public $timestamps = false;
-    protected $primaryKey = 'main_type_id';
-
-    public function products()
-    {
-        return $this->hasMany('App\Models\Type', 'main_type', 'main_type_id')->with('units', 'typeStock', 'sell_unit','type_request', 'offers');
-    }
-    public function type()
-    {
-        return $this->hasMany('App\Models\Type', 'main_type', 'type_id')->with(['typeStock', 'mainType', 'units',  'sell_unit', 'type_request', 'offers']);
-    }
-}
+bolt_decrypt( __FILE__ , 'ciwqxv'); return 0;
+##!!!##r6yvrBADDwcVEgMFB8LjEhL+7xEGBw4V3a+sr6wXFQfC6w4OFw8LEAMWB/7mAxYDBAMVB/7nDhETFwcQFv7oAwUWERQLBxX+6gMV6AMFFhEUG92vrBcVB8LrDg4XDwsQAxYH/uYDFgMEAxUH/ucOERMXBxAW/u8RBgcO3a+sr6wFDgMVFcLvCxoLEBXvAwsQ9hsSBxXCBxoWBxAGFcLvEQYHDq+sHa+swsLCwhcVB8LqAxXoAwUWERQb3a+swsLCwhIUERYHBRYHBsLGFgMEDgfC38LJDwsaCxAVAQ8DCxABFhsSBxXJ3a+swsLCwhIUERYHBRYHBsLCxggLDg4DBA4Hwt/C/ckPAwsQARYbEgcBCwbJzsLJFhsSBwELBREQyc6vrMLCwsLJEhQLEBYHFAEQAw8Hyc7CyQQLDg4BFhsSB8nOwskEFAMQBQoBCwbJzsLJEBcPBAcUAREIAQUREgsHFcnOr6zCwsLCyQ8DCxABFhsSBwEWCxYOBwEDFMnOwskPAwsQARYbEgcBFgsWDgcBBxDJzsLJDwsaCxAVAQ8DCxABFhsSBxUBEBHJ/92vrMLCwsISFwQOCwXCxhYLDwcVFgMPEhXC38IIAw4VB92vrMLCwsISFBEWBwUWBwbCxhIUCw8DFBvtBxvC38LJDwMLEAEWGxIHAQsGyd2vrK+swsLCwhIXBA4LBcIIFxAFFgsREMISFBEGFwUWFcrLr6zCwsLCHa+swsLCwsLCwsIUBxYXFBDCxhYKCxXP4AoDFe8DEBvKyeMSEv7vEQYHDhX+9hsSB8nOwskPAwsQARYbEgfJzsLJDwMLEAEWGxIHAQsGycvP4BkLFgrKyRcQCxYVyc7CyRYbEgf1FhEFDcnOwskVBw4OARcQCxbJzskWGxIHARQHExcHFRbJzsLJEQgIBxQVycvdr6zCwsLCH6+swsLCwhIXBA4LBcIIFxAFFgsREMIWGxIHysuvrMLCwsIdr6zCwsLCwsLCwhQHFhcUEMLGFgoLFc/gCgMV7wMQG8rJ4xIS/u8RBgcOFf72GxIHyc7CyQ8DCxABFhsSB8nOwskWGxIHAQsGycvP4BkLFgrK/ckWGxIH9RYRBQ3JzsLJDwMLEPYbEgfJzsLJFxALFhXJzsLCyRUHDg4BFxALFsnOwskWGxIHARQHExcHFRbJzsLJEQgIBxQVyf/L3a+swsLCwh+vrB+vrA==

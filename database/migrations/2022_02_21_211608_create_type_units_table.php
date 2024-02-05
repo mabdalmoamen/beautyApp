@@ -1,33 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateTypeUnitsTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('type_units', function (Blueprint $table) {
-            $table->bigIncrements("type_unit_id");
-            $table->decimal("price")->default(0.0);
-            $table->foreignId('type_id')->constrained('types', "type_id")->nullable();
-            $table->foreignId('unit_id')->constrained('units', "unit_id")->nullable();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('type_units');
-    }
-}
+bolt_decrypt( __FILE__ , 'Pw3eGW'); return 0;
+##!!!##CgcKB3JwYh1GaWlyamZrXnFiWUFecV5fXnBiWUpmZG9ecWZsa3BZSmZkb15xZmxrOAoHcnBiHUZpaXJqZmtecWJZQV5xXl9ecGJZUGBlYmpeWT9pcmJtb2ZrcTgKB3JwYh1GaWlyamZrXnFiWVBybW1sb3FZQ15gXmFicFlQYGVial44CgcKB2BpXnBwHUBvYl5xYlF2bWJSa2ZxcFFeX2liHWJ1cWJrYXAdSmZkb15xZmxrCgd4CgcdHR0dLCcnCgcdHR0dHScdT3JrHXFlYh1qZmRvXnFmbGtwKwoHHR0dHR0nCgcdHR0dHScdPW9icXJvax1zbGZhCgcdHR0dHScsCgcdHR0dbXJfaWZgHWNya2BxZmxrHXJtJSYKBx0dHR14CgcdHR0dHR0dHVBgZWJqXjc3YG9iXnFiJSRxdm1iXHJrZnFwJCkdY3JrYHFmbGsdJT9pcmJtb2ZrcR0hcV5faWImHXgKBx0dHR0dHR0dHR0dHSFxXl9pYio7X2ZkRmtgb2JqYmtxcCUfcXZtYlxya2ZxXGZhHyY4CgcdHR0dHR0dHR0dHR0hcV5faWIqO2FiYGZqXmklH21vZmBiHyYqO2FiY15yaXElLSstJjgKBx0dHR0dHR0dHR0dHSFxXl9pYio7Y2xvYmZka0ZhJSRxdm1iXGZhJCYqO2Bsa3Bxb15ma2JhJSRxdm1icCQpHR9xdm1iXGZhHyYqO2tyaWleX2liJSY4CgcdHR0dHR0dHR0dHR0hcV5faWIqO2Nsb2JmZGtGYSUkcmtmcVxmYSQmKjtgbGtwcW9eZmtiYSUkcmtmcXAkKR0fcmtmcVxmYR8mKjtrcmlpXl9pYiUmOAoHHR0dHR0dHR16JjgKBx0dHR16CgcKBx0dHR0sJycKBx0dHR0dJx1PYnNib3BiHXFlYh1qZmRvXnFmbGtwKwoHHR0dHR0nCgcdHR0dHScdPW9icXJvax1zbGZhCgcdHR0dHScsCgcdHR0dbXJfaWZgHWNya2BxZmxrHWFsdGslJgoHHR0dHXgKBx0dHR0dHR0dUGBlYmpeNzdhb2xtRmNCdWZwcXAlJHF2bWJccmtmcXAkJjgKBx0dHR16Cgd6Cgc=

@@ -1,31 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\Cache;
-
-class Barcode extends Model
-{
-    use HasFactory;
-    protected $table = "barcodes";
-    protected $fillable = [
-        'id', 'format', 'width',
-        'branch_id', 'height', 'displayValue', 'text', 'fontOptions', 'font', 'textAlign', 'textPosition', 'textMargin', 'fontSize', 'background', 'lineColor', 'margin', 'marginTop', 'marginBottom', 'marginLeft', 'marginRight', 'flat'
-    ];
-    protected $casts =
-    [
-        'displayValue' => 'boolean',
-        'flat' => 'boolean',
-
-    ];
-    protected static function boot()
-    {
-        parent::boot();
-
-        static::updated(function () {
-            return Cache::forget('activeChannels');
-        });
-    }
-}
+bolt_decrypt( __FILE__ , 'PcOjKs'); return 0;
+##!!!##NzQ3NJiLl4+dmouNj0prmpqGd5mOj5adZTc0NzSfnY9Kc5aWn5eTmIuej4Zui56LjIudj4Zvlpmbn4+YnoZwi42emZyTj52GcoudcIuNnpmco2U3NJ+dj0pzlpafl5OYi56Phm6LnouMi52Phm+WmZufj5iehneZjo+WZTc0n52PSnOWlp+Xk5iLno+GfZ+ampmcnoZwi42Ljo+dhm2LjZKPZTc0NzSNloudnUpsi5yNmY6PSo+ino+Yjp1Kd5mOj5Y3NKU3NEpKSkqfnY9KcoudcIuNnpmco2U3NEpKSkqanJmej42ej45KTp6LjJaPSmdKTIyLnI2Zjo+dTGU3NEpKSkqanJmej42ej45KTpCTlpaLjJaPSmdKhTc0SkpKSkpKSkpRk45RVkpRkJmcl4ueUVZKUaGTjp6SUVY3NEpKSkpKSkpKUYyci5iNkomTjlFWSlGSj5ORkp5RVkpRjpOdmpaLo4CLlp+PUVZKUZ6Pop5RVkpRkJmYnnmanpOZmJ1RVkpRkJmYnlFWSlGej6Kea5aTkZhRVkpRno+innqZnZOek5mYUVZKUZ6Pop53i5yRk5hRVkpRkJmYnn2TpI9RVkpRjIuNlZGcmZ+YjlFWSlGWk5iPbZmWmZxRVkpRl4uckZOYUVZKUZeLnJGTmH6ZmlFWSlGXi5yRk5hsmZ6emZdRVkpRl4uckZOYdo+QnlFWSlGXi5yRk5h8k5GSnlFWSlGQloueUTc0SkpKSodlNzRKSkpKmpyZno+Nno+OSk6Ni52enUpnNzRKSkpKhTc0SkpKSkpKSkpRjpOdmpaLo4CLlp+PUUpnaEpRjJmZlo+LmFFWNzRKSkpKSkpKSlGQloueUUpnaEpRjJmZlo+LmFFWNzQ3NEpKSkqHZTc0SkpKSpqcmZ6PjZ6Pjkqdnouek41KkJ+YjZ6TmZhKjJmZnlJTNzRKSkpKpTc0SkpKSkpKSkqai5yPmJ5kZIyZmZ5SU2U3NDc0SkpKSkpKSkqdnouek41kZJ+ajouej45SkJ+YjZ6TmZhKUlNKpTc0SkpKSkpKSkpKSkpKnI+en5yYSm2LjZKPZGSQmZyRj55SUYuNnpOgj22Si5iYj5adUVNlNzRKSkpKSkpKSqdTZTc0SkpKSqc3NKc3NA==

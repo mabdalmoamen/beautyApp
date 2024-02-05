@@ -1,11 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class Tenant extends Model
-{
-    use HasFactory;
-}
+bolt_decrypt( __FILE__ , 'bjXiO3'); return 0;
+##!!!##HBkcGX1wfHSCf3BydC9Qf39rXH5zdHuCShwZHBmEgnQvWHt7hHx4fXCDdGtTcINwcXCCdGtUe36AhHR9g2tVcHKDfoF4dIJrV3CCVXByg36BiEocGYSCdC9Ye3uEfHh9cIN0a1Nwg3BxcIJ0a1R7foCEdH2Da1x+c3R7ShwZHBlye3CCgi9jdH1wfYMvdIeDdH1zgi9cfnN0exwZihwZLy8vL4SCdC9XcIJVcHKDfoGIShwZjBwZ

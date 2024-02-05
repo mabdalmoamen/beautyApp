@@ -1,31 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreatePayMethodsTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('pay_methods', function (Blueprint $table) {
-            $table->id();
-            $table->string("pay_method_name")->nullable();;
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('pay_methods');
-    }
-}
+bolt_decrypt( __FILE__ , 'hgrxMl'); return 0;
+##!!!##f3x/fOfl15K73t7n39vg0+bXzrbT5tPU0+XXzr/b2eTT5tvh4OXOv9vZ5NPm2+HgrX985+XXkrve3uff2+DT5tfOttPm09TT5dfOxdXa19/TzrTe59fi5Nvg5q1/fOfl15K73t7n39vg0+bXzsXn4uLh5ObOuNPV09bX5c7F1drX39Otf3x/fNXe0+XlkrXk19Pm18LT67/X5trh1uXG09Te15LX6ubX4Nblkr/b2eTT5tvh4H987X98kpKSkqGcnH98kpKSkpKcksTn4JLm2teS39vZ5NPm2+Hg5aB/fJKSkpKSnH98kpKSkpKckrLk1+bn5OCS6OHb1n98kpKSkpKcoX98kpKSkuLn1N7b1ZLY5+DV5tvh4JLn4pqbf3ySkpKS7X98kpKSkpKSkpLF1drX39OsrNXk19Pm15qZ4tPr0d/X5trh1uWZnpLY5+DV5tvh4JKatN7n1+Lk2+Dmkpbm09Te15uS7X98kpKSkpKSkpKSkpKSlubT1N7Xn7Db1pqbrX98kpKSkpKSkpKSkpKSlubT1N7Xn7Dl5uTb4NmalOLT69Hf1+ba4dbR4NPf15Sbn7Dg597e09Te15qbra1/fJKSkpKSkpKS75utf3ySkpKS7398f3ySkpKSoZycf3ySkpKSkpySxNfo1+Tl15Lm2teS39vZ5NPm2+Hg5aB/fJKSkpKSnH98kpKSkpKckrLk1+bn5OCS6OHb1n98kpKSkpKcoX98kpKSkuLn1N7b1ZLY5+DV5tvh4JLW4engmpt/fJKSkpLtf3ySkpKSkpKSksXV2tff06ys1uTh4rvYt+rb5eblmpni0+vR39fm2uHW5ZmbrX98kpKSku9/fO9/fA==

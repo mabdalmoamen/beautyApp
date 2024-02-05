@@ -1,36 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateReturnsTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('returns', function (Blueprint $table) {
-            $table->bigIncrements("return_id");
-            $table->foreignId("bill_no")->constrained("bills", "bill_no");
-            $table->foreignId("user_id")->constrained("users");
-            $table->decimal("vat")->default(0.0);
-            $table->decimal("sum")->default(0.0);
-            $table->decimal("total")->default(0.0);
-            $table->timestamp("returns_date")->nullable();;
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('returns');
-    }
-}
+bolt_decrypt( __FILE__ , 'jdMkoY'); return 0;
+##!!!##W1hbWMPBs26XurrDu7e8r8KzqpKvwq+wr8Gzqpu3tcCvwre9vMGqm7e1wK/Ct728iVtYw8Gzbpe6usO7t7yvwrOqkq/Cr7CvwbOqobG2s7uvqpC6w7O+wLe8wolbWMPBs26XurrDu7e8r8KzqqHDvr69wMKqlK+xr7Kzwaqhsbazu6+JW1hbWLG6r8HBbpHAs6/Cs6CzwsPAvMGir7C6s26zxsKzvLLBbpu3tcCvwre9vFtYyVtYbm5ubn14eFtYbm5ubm54bqDDvG7CtrNuu7e1wK/Ct728wXxbWG5ubm5ueFtYbm5ubm54bo7As8LDwLxuxL23sltYbm5ubm54fVtYbm5ubr7DsLq3sW60w7yxwre9vG7DvnZ3W1hubm5uyVtYbm5ubm5ubm6hsbazu6+IiLHAs6/Cs3Z1wLPCw8C8wXV6brTDvLHCt728bnaQusOzvsC3vMJucsKvsLqzd27JW1hubm5ubm5ubm5ubm5ywq+wurN7jLC3tZe8scCzu7O8wsF2cMCzwsPAvK23snB3iVtYbm5ubm5ubm5ubm5ucsKvsLqze4y0vcCzt7W8l7J2cLC3urqtvL1wd3uMsb28wcLAr7e8s7J2cLC3urrBcHpucLC3urqtvL1wd4lbWG5ubm5ubm5ubm5ubnLCr7C6s3uMtL3As7e1vJeydnDDwbPArbeycHd7jLG9vMHCwK+3vLOydnDDwbPAwXB3iVtYbm5ubm5ubm5ubm5ucsKvsLqze4yys7G3u6+6dnDEr8Jwd3uMsrO0r8O6wnZ+fH53iVtYbm5ubm5ubm5ubm5ucsKvsLqze4yys7G3u6+6dnDBw7twd3uMsrO0r8O6wnZ+fH53iVtYbm5ubm5ubm5ubm5ucsKvsLqze4yys7G3u6+6dnDCvcKvunB3e4yys7Svw7rCdn58fneJW1hubm5ubm5ubm5ubm5ywq+wurN7jMK3u7PBwq+7vnZwwLPCw8C8wa2yr8KzcHd7jLzDurqvsLqzdneJiVtYbm5ubm5ubm7Ld4lbWG5ubm7LW1hbWG5ubm59eHhbWG5ubm5ueG6gs8SzwMGzbsK2s267t7XAr8K3vbzBfFtYbm5ubm54W1hubm5ubnhujsCzwsPAvG7EvbeyW1hubm5ubnh9W1hubm5uvsOwurexbrTDvLHCt728brK9xbx2d1tYbm5ubslbWG5ubm5ubm5uobG2s7uviIiywL2+l7STxrfBwsF2dcCzwsPAvMF1d4lbWG5ubm7LW1jLW1g=

@@ -1,19 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class MixinsTypeStock extends Model
-{
-    use HasFactory;
-    protected $table = "mixins_type_stock";
-    protected $fillable = ['mixins_type_stock_id',
-    'mixins_type_stock', 'type_stock_id',
-        'branch_id', 'type_exp_date',
-    'mixins_store', 'mixins_type_stock_no
-'];
-    protected $primaryKey = 'mixins_type_stock_id';
-
-}
+bolt_decrypt( __FILE__ , 'Gr09OX'); return 0;
+##!!!##1tPW0zcqNi48OSosLukKOTklFjgtLjU8BNbT1tM+PC7pEjU1PjYyNyo9LiUNKj0qKyo8LiUONTg6Pi43PSUPKiw9ODsyLjwlESo8DyosPTg7QgTW0z48LukSNTU+NjI3Kj0uJQ0qPSorKjwuJQ41ODo+Ljc9JRY4LS41BNbT1tMsNSo8POkWMkEyNzwdQjkuHD04LDTpLkE9LjctPOkWOC0uNdbTRNbT6enp6T48LukRKjwPKiw9ODtCBNbT6enp6Tk7OD0uLD0uLentPSorNS7pBunrNjJBMjc8KD1COS4oPD04LDTrBNbT6enp6Tk7OD0uLD0uLentLzI1NSorNS7pBukk8DYyQTI3PCg9QjkuKDw9OCw0KDIt8PXW0+np6enwNjJBMjc8KD1COS4oPD04LDTw9enwPUI5Lig8PTgsNCgyLfD11tPp6enp6enp6fArOyo3LDEoMi3w9enwPUI5LiguQTkoLSo9LvD11tPp6enp8DYyQTI3PCg8PTg7LvD16fA2MkEyNzwoPUI5Lig8PTgsNCg3ONbT8CYE1tPp6enpOTs4PS4sPS4t6e05OzI2KjtCFC5C6Qbp8DYyQTI3PCg9QjkuKDw9OCw0KDIt8ATW09bTRtbT

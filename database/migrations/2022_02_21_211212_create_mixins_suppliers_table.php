@@ -1,35 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateMixinsSuppliersTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('mixins_suppliers', function (Blueprint $table) {
-            $table->bigIncrements("supplier_id");
-            $table->string("supplier_name")->nullable();
-            $table->string("supplier_mobile")->nullable();
-            $table->double("supplier_total_withdrawals")->default(0.0);
-            $table->double("supplier_total_paid")->default(0.0);
-            $table->double("supplier_total_remain")->default(0.0);
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('mixins_suppliers');
-    }
-}
+bolt_decrypt( __FILE__ , 'zKwHbB'); return 0;
+##!!!##NTI1Mp2bjUhxlJSdlZGWiZyNhGyJnImKiZuNhHWRj5qJnJGXlpuEdZGPmomckZeWYzUynZuNSHGUlJ2VkZaJnI2EbImciYqJm42Ee4uQjZWJhGqUnY2YmpGWnGM1Mp2bjUhxlJSdlZGWiZyNhHudmJiXmpyEbomLiYyNm4R7i5CNlYljNTI1MouUiZubSGuajYmcjXWRoJGWm3udmJiUkY2am3yJipSNSI2gnI2WjJtIdZGPmomckZeWNTKjNTJISEhIV1JSNTJISEhISFJIep2WSJyQjUiVkY+aiZyRl5abVjUySEhISEhSNTJISEhISFJIaJqNnJ2alkiel5GMNTJISEhISFJXNTJISEhImJ2KlJGLSI6dlouckZeWSJ2YUFE1MkhISEijNTJISEhISEhISHuLkI2ViWJii5qNiZyNUE+VkaCRlpuHm52YmJSRjZqbT1RIjp2Wi5yRl5ZIUGqUnY2YmpGWnEhMnImKlI1RSKM1MkhISEhISEhISEhISEyciYqUjVVmipGPcZaLmo2VjZacm1BKm52YmJSRjZqHkYxKUWM1MkhISEhISEhISEhISEyciYqUjVVmm5yakZaPUEqbnZiYlJGNmoeWiZWNSlFVZpadlJSJipSNUFFjNTJISEhISEhISEhISEhMnImKlI1VZpucmpGWj1BKm52YmJSRjZqHlZeKkZSNSlFVZpadlJSJipSNUFFjNTJISEhISEhISEhISEhMnImKlI1VZoyXnYqUjVBKm52YmJSRjZqHnJeciZSHn5GckIyaiZ+JlJtKUVVmjI2OiZ2UnFBYVlhRYzUySEhISEhISEhISEhITJyJipSNVWaMl52KlI1QSpudmJiUkY2ah5yXnImUh5iJkYxKUVVmjI2OiZ2UnFBYVlhRYzUySEhISEhISEhISEhITJyJipSNVWaMl52KlI1QSpudmJiUkY2ah5yXnImUh5qNlYmRlkpRVWaMjY6JnZScUFhWWFFjNTJISEhISEhISKVRYzUySEhISKU1MjUySEhISFdSUjUySEhISEhSSHqNno2am41InJCNSJWRj5qJnJGXlptWNTJISEhISFI1MkhISEhIUkhomo2cnZqWSJ6XkYw1MkhISEhIUlc1MkhISEiYnYqUkYtIjp2Wi5yRl5ZIjJefllBRNTJISEhIozUySEhISEhISEh7i5CNlYliYoyal5hxjm2gkZucm1BPlZGgkZabh5udmJiUkY2am09RYzUySEhISKU1MqU1Mg==

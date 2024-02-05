@@ -1,34 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateGustoTypeStockTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('gusto_type_stock', function (Blueprint $table) {
-            $table->id();
-            $table->foreignId("type_id")->constrained("types", "type_id");
-            $table->foreignId("stock_id")->constrained("gusto_stocks");
-            $table->foreignId("unit_id")->constrained("units", "unit_id");
-            $table->decimal("mount")->default(0.0);
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('gusto_type_stock');
-    }
-}
+bolt_decrypt( __FILE__ , 'xAebjx'); return 0;
+##!!!##b2xvbNfVx4Krzs7Xz8vQw9bHvqbD1sPEw9XHvq/LydTD1svR0NW+r8vJ1MPWy9HQnW9s19XHgqvOztfPy9DD1se+psPWw8TD1ce+tcXKx8/DvqTO18fS1MvQ1p1vbNfVx4Krzs7Xz8vQw9bHvrXX0tLR1Na+qMPFw8bH1b61xcrHz8Odb2xvbMXOw9XVgqXUx8PWx6nX1dbRttvSx7XW0cXNtsPEzseCx9rWx9DG1YKvy8nUw9bL0dBvbN1vbIKCgoKRjIxvbIKCgoKCjIK019CC1srHgs/LydTD1svR0NWQb2yCgoKCgoxvbIKCgoKCjIKi1MfW19TQgtjRy8ZvbIKCgoKCjJFvbIKCgoLS18TOy8WCyNfQxdbL0dCC19KKi29sgoKCgt1vbIKCgoKCgoKCtcXKx8/DnJzF1MfD1seKicnX1dbRwdbb0sfB1dbRxc2JjoLI19DF1svR0IKKpM7Xx9LUy9DWgobWw8TOx4uC3W9sgoKCgoKCgoKCgoKChtbDxM7Hj6DLxoqLnW9sgoKCgoKCgoKCgoKChtbDxM7Hj6DI0dTHy8nQq8aKhNbb0sfBy8aEi4+gxdHQ1dbUw8vQx8aKhNbb0sfVhI6ChNbb0sfBy8aEi51vbIKCgoKCgoKCgoKCgobWw8TOx4+gyNHUx8vJ0KvGioTV1tHFzcHLxoSLj6DF0dDV1tTDy9DHxoqEydfV1tHB1dbRxc3VhIudb2yCgoKCgoKCgoKCgoKG1sPEzsePoMjR1MfLydCrxoqE19DL1sHLxoSLj6DF0dDV1tTDy9DHxoqE19DL1tWEjoKE19DL1sHLxoSLnW9sgoKCgoKCgoKCgoKChtbDxM7Hj6DGx8XLz8POioTP0dfQ1oSLj6DGx8jD187WipKQkoudb2yCgoKCgoKCgt+LnW9sgoKCgt9vbG9sgoKCgpGMjG9sgoKCgoKMgrTH2MfU1ceC1srHgs/LydTD1svR0NWQb2yCgoKCgoxvbIKCgoKCjIKi1MfW19TQgtjRy8ZvbIKCgoKCjJFvbIKCgoLS18TOy8WCyNfQxdbL0dCCxtHZ0IqLb2yCgoKC3W9sgoKCgoKCgoK1xcrHz8OcnMbU0dKryKfay9XW1YqJydfV1tHB1tvSx8HV1tHFzYmLnW9sgoKCgt9vbN9vbA==

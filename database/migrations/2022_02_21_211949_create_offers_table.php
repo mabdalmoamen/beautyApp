@@ -1,31 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateOffersTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('offers', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('offers');
-    }
-}
+bolt_decrypt( __FILE__ , 'L1fDnN'); return 0;
+##!!!##8O3w7VhWSAMsT09YUExRRFdIPydEV0RFRFZIPzBMSlVEV0xSUVY/MExKVURXTFJRHvDtWFZIAyxPT1hQTFFEV0g/J0RXREVEVkg/NkZLSFBEPyVPWEhTVUxRVx7w7VhWSAMsT09YUExRRFdIPzZYU1NSVVc/KURGREdIVj82RktIUEQe8O3w7UZPRFZWAyZVSERXSDJJSUhVVjdERU9IA0hbV0hRR1YDMExKVURXTFJR8O1e8O0DAwMDEg0N8O0DAwMDAw0DNVhRA1dLSANQTEpVRFdMUlFWEfDtAwMDAwMN8O0DAwMDAw0DI1VIV1hVUQNZUkxH8O0DAwMDAw0S8O0DAwMDU1hFT0xGA0lYUUZXTFJRA1hTCwzw7QMDAwNe8O0DAwMDAwMDAzZGS0hQRB0dRlVIRFdICwpSSUlIVVYKDwNJWFFGV0xSUQMLJU9YSFNVTFFXAwdXREVPSAwDXvDtAwMDAwMDAwMDAwMDB1dERU9IECFMRwsMHvDtAwMDAwMDAwMDAwMDB1dERU9IECFXTFBIVldEUFNWCwwe8O0DAwMDAwMDA2AMHvDtAwMDA2Dw7fDtAwMDAxINDfDtAwMDAwMNAzVIWUhVVkgDV0tIA1BMSlVEV0xSUVYR8O0DAwMDAw3w7QMDAwMDDQMjVUhXWFVRA1lSTEfw7QMDAwMDDRLw7QMDAwNTWEVPTEYDSVhRRldMUlEDR1JaUQsM8O0DAwMDXvDtAwMDAwMDAwM2RktIUEQdHUdVUlMsSShbTFZXVgsKUklJSFVWCgwe8O0DAwMDYPDtYPDt

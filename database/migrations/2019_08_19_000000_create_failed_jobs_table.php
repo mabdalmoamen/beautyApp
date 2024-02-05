@@ -1,36 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreateFailedJobsTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('failed_jobs', function (Blueprint $table) {
-            $table->id();
-            $table->string('uuid')->unique();
-            $table->text('connection');
-            $table->text('queue');
-            $table->longText('payload');
-            $table->longText('exception');
-            $table->timestamp('failed_at')->useCurrent();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('failed_jobs');
-    }
-}
+bolt_decrypt( __FILE__ , 'LVwLQR'); return 0;
+##!!!##FRIVEn17bShRdHR9dXF2aXxtZExpfGlqaXttZFVxb3ppfHF3dntkVXFveml8cXd2QxUSfXttKFF0dH11cXZpfG1kTGl8aWppe21kW2twbXVpZEp0fW14enF2fEMVEn17bShRdHR9dXF2aXxtZFt9eHh3enxkTmlraWxte2Rba3BtdWlDFRIVEmt0aXt7KEt6bWl8bU5pcXRtbFJ3antcaWp0bShtgHxtdmx7KFVxb3ppfHF3dhUSgxUSKCgoKDcyMhUSKCgoKCgyKFp9dih8cG0odXFveml8cXd2ezYVEigoKCgoMhUSKCgoKCgyKEh6bXx9enYofndxbBUSKCgoKCgyNxUSKCgoKHh9anRxayhufXZrfHF3dih9eDAxFRIoKCgogxUSKCgoKCgoKChba3BtdWlCQmt6bWl8bTAvbmlxdG1sZ3J3ansvNChufXZrfHF3digwSnR9bXh6cXZ8KCx8aWp0bTEogxUSKCgoKCgoKCgoKCgoLHxpanRtNUZxbDAxQxUSKCgoKCgoKCgoKCgoLHxpanRtNUZ7fHpxdm8wL319cWwvMTVGfXZxeX1tMDFDFRIoKCgoKCgoKCgoKCgsfGlqdG01RnxtgHwwL2t3dnZta3xxd3YvMUMVEigoKCgoKCgoKCgoKCx8aWp0bTVGfG2AfDAveX1tfW0vMUMVEigoKCgoKCgoKCgoKCx8aWp0bTVGdHd2b1xtgHwwL3hpgXR3aWwvMUMVEigoKCgoKCgoKCgoKCx8aWp0bTVGdHd2b1xtgHwwL22Aa214fHF3di8xQxUSKCgoKCgoKCgoKCgoLHxpanRtNUZ8cXVte3xpdXgwL25pcXRtbGdpfC8xNUZ9e21LfXp6bXZ8MDFDFRIoKCgoKCgoKIUxQxUSKCgoKIUVEhUSKCgoKDcyMhUSKCgoKCgyKFptfm16e20ofHBtKHVxb3ppfHF3dns2FRIoKCgoKDIVEigoKCgoMihIem18fXp2KH53cWwVEigoKCgoMjcVEigoKCh4fWp0cWsobn12a3xxd3YobHd/djAxFRIoKCgogxUSKCgoKCgoKChba3BtdWlCQmx6d3hRbk2AcXt8ezAvbmlxdG1sZ3J3ansvMUMVEigoKCiFFRKFFRI=

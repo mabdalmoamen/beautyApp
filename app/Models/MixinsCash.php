@@ -1,19 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class mixinsCash extends Model
-{
-    protected $table = "mixins_cash";
-    protected $fillable = ['cash_id',
-    'cash_sill_point', 'branch_id', 'cash_drawer', 'cash_transfer',
-    'cash_remain', 'cash_later', 'cash_card', 'cash_total',
-    'start_period', 'end_period', 'cash_end_date', 'cash_start_date',
-     'cash_current_user', 'cash_recieve_user', 'deficit_or_increase'];
-    use HasFactory;
-    protected $primaryKey = 'cash_id';
-
-}
+bolt_decrypt( __FILE__ , '83iuSz'); return 0;
+##!!!##IyAjIIR3g3uJhnd5ezZXhoZyY4V6e4KJUSMgIyCLiXs2X4KCi4N/hHeKe3Jad4p3eHeJe3JbgoWHi3uEinJcd3mKhYh/e4lyXneJXHd5ioWIj1EjIIuJezZfgoKLg3+Ed4p7clp3ind4d4l7cluChYeLe4SKcmOFenuCUSMgIyB5gneJiTaDf45/hIlZd4l+NnuOinuEeok2Y4V6e4IjIJEjIDY2NjaGiIWKe3mKe3o2Oop3eIJ7NlM2OIN/jn+EiXV5d4l+OFEjIDY2NjaGiIWKe3mKe3o2Onx/goJ3eIJ7NlM2cT15d4l+dX96PUIjIDY2NjY9eXeJfnWJf4KCdYaFf4SKPUI2PXiId4R5fnV/ej1CNj15d4l+dXqId417iD1CNj15d4l+dYqId4SJfHuIPUIjIDY2NjY9eXeJfnWIe4N3f4Q9QjY9eXeJfnWCd4p7iD1CNj15d4l+dXl3iHo9QjY9eXeJfnWKhYp3gj1CIyA2NjY2PYmKd4iKdYZ7iH+Fej1CNj17hHp1hnuIf4V6PUI2PXl3iX51e4R6dXp3ins9QjY9eXeJfnWJineIinV6d4p7PUIjIDY2NjY2PXl3iX51eYuIiHuEinWLiXuIPUI2PXl3iX51iHt5f3uMe3WLiXuIPUI2PXp7fH95f4p1hYh1f4R5iHt3iXs9c1EjIDY2NjaLiXs2XneJXHd5ioWIj1EjIDY2NjaGiIWKe3mKe3o2OoaIf4N3iI9he482UzY9eXeJfnV/ej1RIyAjIJMjIA==

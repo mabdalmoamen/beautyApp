@@ -1,11 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class MixinsInfo extends Model
-{
-    use HasFactory;
-}
+bolt_decrypt( __FILE__ , 'V3g7nQ'); return 0;
+##!!!##8/Dz8FRHU0tZVkdJSwYnVlZCM1VKS1JZIfPw8/BbWUsGL1JSW1NPVEdaS0IqR1pHSEdZS0IrUlVXW0tUWkIsR0laVVhPS1lCLkdZLEdJWlVYXyHz8FtZSwYvUlJbU09UR1pLQipHWkdIR1lLQitSVVdbS1RaQjNVSktSIfPw8/BJUkdZWQYzT15PVFkvVExVBkteWktUSlkGM1VKS1Lz8GHz8AYGBgZbWUsGLkdZLEdJWlVYXyHz8GPz8A==

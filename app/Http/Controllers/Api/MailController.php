@@ -1,26 +1,3 @@
 <?php
-
-namespace App\Http\Controllers\api;
-
-use App\Http\Controllers\Controller;
-use App\Mail\ReportMail;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Mail;
-
-class MailController extends Controller
-{
-    /**
-     * Ship the given order.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function send(Request $request)
-    {
-        $details = [
-            'title' => 'Mail from veronica',
-            'body' => 'This is for testing'
-        ];
-        Mail::to('codies.solutions@gmail.com')->send(new ReportMail($details));
-    }
-}
+bolt_decrypt( __FILE__ , 'EnnRjI'); return 0;
+##!!!##MzAzMJSHk4uZloeJi0ZnlpaCbpqaloJplZSamJWSkouYmYKHlo9hMzAzMJuZi0ZnlpaCbpqaloJplZSamJWSkouYmYJplZSamJWSkouYYTMwm5mLRmeWloJzh4+SgniLlpWYmnOHj5JhMzCbmYtGb5KSm5OPlIeai4JumpqWgniLl5uLmZphMzCbmYtGb5KSm5OPlIeai4J5m5aWlZiagmyHiYeKi5mCc4ePkmEzMDMwiZKHmZlGc4ePkmmVlJqYlZKSi5hGi56ai5SKmUZplZSamJWSkouYMzChMzBGRkZGVVBQMzBGRkZGRlBGeY6PlkaajotGjY+ci5RGlZiKi5hUMzBGRkZGRlAzMEZGRkZGUEZmloeYh5NGRoJvkpKbk4+Uh5qLgm6ampaCeIuXm4uZmkZGSpiLl5uLmZozMEZGRkZGUEZmmIuam5iURoJvkpKbk4+Uh5qLgm6ampaCeIuZlpWUmYszMEZGRkZGUFUzMEZGRkaWm4iSj4lGjJuUiZqPlZRGmYuUik54i5ebi5maRkqYi5ebi5maTzMwRkZGRqEzMEZGRkZGRkZGSoqLmoePkplGY0aBMzBGRkZGRkZGRkZGRkZNmo+akotNRmNkRk1zh4+SRoyYlZNGnIuYlZSPiYdNUjMwRkZGRkZGRkZGRkZGTYiVip9NRmNkRk16jo+ZRo+ZRoyVmEaai5maj5SNTTMwRkZGRkZGRkaDYTMwRkZGRkZGRkZzh4+SYGCalU5NiZWKj4uZVJmVkpuaj5WUmWaNk4ePklSJlZNNT1NkmYuUik6Ui51GeIuWlZiac4ePkk5Kiouah4+SmU9PYTMwRkZGRqMzMKMzMA==

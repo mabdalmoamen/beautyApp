@@ -1,32 +1,3 @@
 <?php
-
-use Illuminate\Database\Migrations\Migration;
-use Illuminate\Database\Schema\Blueprint;
-use Illuminate\Support\Facades\Schema;
-
-class CreatePasswordResetsTable extends Migration
-{
-    /**
-     * Run the migrations.
-     *
-     * @return void
-     */
-    public function up()
-    {
-        Schema::create('password_resets', function (Blueprint $table) {
-            $table->string('email')->index();
-            $table->string('token');
-            $table->timestamp('created_at')->nullable();
-        });
-    }
-
-    /**
-     * Reverse the migrations.
-     *
-     * @return void
-     */
-    public function down()
-    {
-        Schema::dropIfExists('password_resets');
-    }
-}
+bolt_decrypt( __FILE__ , 'MBu7nG'); return 0;
+##!!!##/fr9+mVjVRA5XFxlXVleUWRVTDRRZFFSUWNVTD1ZV2JRZFlfXmNMPVlXYlFkWV9eK/36ZWNVEDlcXGVdWV5RZFVMNFFkUVJRY1VMQ1NYVV1RTDJcZVVgYlleZCv9+mVjVRA5XFxlXVleUWRVTENlYGBfYmRMNlFTUVRVY0xDU1hVXVEr/fr9+lNcUWNjEDNiVVFkVUBRY2NnX2JUQlVjVWRjRFFSXFUQVWhkVV5UYxA9WVdiUWRZX179+mv9+hAQEBAfGhr9+hAQEBAQGhBCZV4QZFhVEF1ZV2JRZFlfXmMe/foQEBAQEBr9+hAQEBAQGhAwYlVkZWJeEGZfWVT9+hAQEBAQGh/9+hAQEBBgZVJcWVMQVmVeU2RZX14QZWAYGf36EBAQEGv9+hAQEBAQEBAQQ1NYVV1RKipTYlVRZFUYF2BRY2NnX2JUT2JVY1VkYxccEFZlXlNkWV9eEBgyXGVVYGJZXmQQFGRRUlxVGRBr/foQEBAQEBAQEBAQEBAUZFFSXFUdLmNkYlleVxgXVV1RWVwXGR0uWV5UVWgYGSv9+hAQEBAQEBAQEBAQEBRkUVJcVR0uY2RiWV5XGBdkX1tVXhcZK/36EBAQEBAQEBAQEBAQFGRRUlxVHS5kWV1VY2RRXWAYF1NiVVFkVVRPUWQXGR0uXmVcXFFSXFUYGSv9+hAQEBAQEBAQbRkr/foQEBAQbf36/foQEBAQHxoa/foQEBAQEBoQQlVmVWJjVRBkWFUQXVlXYlFkWV9eYx79+hAQEBAQGv36EBAQEBAaEDBiVWRlYl4QZl9ZVP36EBAQEBAaH/36EBAQEGBlUlxZUxBWZV5TZFlfXhBUX2deGBn9+hAQEBBr/foQEBAQEBAQEENTWFVdUSoqVGJfYDlWNWhZY2RjGBdgUWNjZ19iVE9iVWNVZGMXGSv9+hAQEBBt/fpt/fo=

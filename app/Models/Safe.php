@@ -1,11 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class safe extends Model
-{
-    use HasFactory;
-}
+bolt_decrypt( __FILE__ , 'MlatKZ'); return 0;
+##!!!##QD1APaGUoJimo5SWmFN0o6OPgKKXmJ+mbkA9QD2opphTfJ+fqKCcoZSnmI93lKeUlZSmmI94n6KkqJihp495lJanoqWcmKaPe5SmeZSWp6KlrG5APaimmFN8n5+ooJyhlKeYj3eUp5SVlKaYj3ifoqSomKGnj4Cil5ifbkA9QD2Wn5SmplOmlJmYU5irp5ihl6ZTgKKXmJ9APa5APVNTU1OopphTe5SmeZSWp6KlrG5APbBAPQ==

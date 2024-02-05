@@ -1,15 +1,3 @@
 <?php
-
-namespace App\Models;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
-use Illuminate\Database\Eloquent\Model;
-
-class TypesSoldWithoutBalance extends Model
-{
-    use HasFactory;
-    protected $table = "types_sold_without_balance";
-    protected $fillable = ['types_sold_without_balance_id', 'branch_id', 'qty', 'type_id'];
-    protected $primaryKey = 'types_sold_without_balance_id';
-
-}
+bolt_decrypt( __FILE__ , 'fF3iK0'); return 0;
+##!!!##0M3QzTEkMCg2MyQmKOMEMzMfEDInKC82/tDN0M04NijjDC8vODAsMSQ3KB8HJDckJSQ2KB8ILzI0OCgxNx8JJCY3MjUsKDYfCyQ2CSQmNzI1PP7QzTg2KOMMLy84MCwxJDcoHwckNyQlJDYoHwgvMjQ4KDE3HxAyJygv/tDN0M0mLyQ2NuMXPDMoNhYyLycaLDcrMjg3BSQvJDEmKOMoOzcoMSc24xAyJygv0M0+0M3j4+PjODYo4wskNgkkJjcyNTz+0M3j4+PjMzUyNygmNygn4+c3JCUvKOMA4+U3PDMoNiI2Mi8nIjosNysyODciJSQvJDEmKOX+0M3j4+PjMzUyNygmNygn4+cpLC8vJCUvKOMA4x7qNzwzKDYiNjIvJyI6LDcrMjg3IiUkLyQxJigiLCfq7+PqJTUkMSYrIiwn6u/j6jQ3POrv4+o3PDMoIiwn6iD+0M3j4+PjMzUyNygmNygn4+czNSwwJDU8Dig84wDj6jc8Myg2IjYyLyciOiw3KzI4NyIlJC8kMSYoIiwn6v7QzdDNQNDN

@@ -1,23 +1,3 @@
 <?php
-
-namespace App\Http\Middleware;
-
-use Closure;
-use Illuminate\Http\Request;
-use Tymon\JWTAuth\Facades\JWTAuth;
-
-class JWT
-{
-    /**
-     * Handle an incoming request.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \Closure  $next
-     * @return mixed
-     */
-    public function handle(Request $request, Closure $next)
-    {
-        JWTAuth::parseToken()->authenticate();
-        return $next($request);
-    }
-}
+bolt_decrypt( __FILE__ , 'Z4cQiC'); return 0;
+##!!!##+/j7+FxPW1NhXk9RUw4vXl5KNmJiXko7V1JSWlNlT2BTKfv4+/hjYVMOMVpdYWNgUyn7+GNhUw43WlpjW1dcT2JTSjZiYl5KQFNfY1NhYin7+GNhUw5CZ1tdXEo4RUIvY2JWSjRPUU9SU2FKOEVCL2NiVin7+Pv4UVpPYWEOOEVC+/hp+/gODg4OHRgY+/gODg4ODhgONk9cUlpTDk9cDldcUV1bV1xVDmBTX2NTYWIc+/gODg4ODhj7+A4ODg4OGA4uXk9gT1sODko3WlpjW1dcT2JTSjZiYl5KQFNfY1NhYg4OEmBTX2NTYWL7+A4ODg4OGA4uXk9gT1sODkoxWl1hY2BTDg4SXFNmYvv4Dg4ODg4YDi5gU2JjYFwOW1dmU1L7+A4ODg4OGB37+A4ODg5eY1BaV1EOVGNcUWJXXVwOVk9cUlpTFkBTX2NTYWIOEmBTX2NTYWIaDjFaXWFjYFMOElxTZmIX+/gODg4Oafv4Dg4ODg4ODg44RUIvY2JWKCheT2BhU0JdWVNcFhcbLE9jYlZTXGJXUU9iUxYXKfv4Dg4ODg4ODg5gU2JjYFwOElxTZmIWEmBTX2NTYWIXKfv4Dg4ODmv7+Gv7+A==
