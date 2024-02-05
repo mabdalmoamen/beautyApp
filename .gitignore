@@ -4,7 +4,7 @@ node_modules/
 /public/storage
 #/storage/*.key
 #/vendor
-.env
+# .env
 # .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
@@ -14,7 +14,7 @@ npm-debug.log
 yarn-error.log
 /.idea
 /.vscode
-# /app/backup/
+/app/backup/
 app/app.zip
 /storage
 storage
