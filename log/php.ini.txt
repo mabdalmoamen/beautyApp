@@ -1,0 +1,36 @@
+1-Try just by commenting Listen 443 (like #Listen 443)in httpd-ssl.conf file. it will Work 100%. Mine site it has work 100%.
+2-So I opened httpd-ssl.conf file in xampp folder and changed the following line
+
+ServerName www.example.com:443
+To
+
+ServerName localhost
+3-in php folder put log folder for errors
+
+4-
+Apply in php.ini
+
+post_max_size = 750M 
+upload_max_filesize = 750M 
+max_execution_time = 5000 
+max_input_time = 5000 
+memory_limit = 1000M 
+
+5- xampp\phpMyAdmin\libraries\config.default.php
+
+
+/**
+ * maximum execution time in seconds (0 for no limit)
+ *
+ * @global integer $cfg['ExecTimeLimit']
+ */
+$cfg['ExecTimeLimit'] = 0;
+
+
+6-httpd.congi
+MaxRequestsPerChild=1000---------------------------------------------
+
+7-xampp\mysql\bin\my.ini
+max_allowed_packet = 200M
+
+

@@ -1,0 +1,202 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+@media print {
+    *,
+    html {
+        margin: 0;
+        padding: 0;
+    }
+    * {
+        font-size: 12px;
+        font-weight: bold;
+        direction: rtl;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .text-center {
+        text-align: center;
+    }
+    td,
+    th {
+        text-align: center;
+        border: 1px solid #222 !important;
+    }
+    .pos-section {
+        width: 72mm;
+        /* min-height: 350px; */
+        direction: rtl;
+    }
+}
+
+@media print {
+    .A4 table {
+        border: solid #000 !important;
+        border-width: 1px 0 0 1px !important;
+    }
+    .A4 th,
+    .A4 td {
+        border: solid #000 !important;
+        border-width: 0 1px 1px 0 !important;
+    }
+    .hideMeInPrint {
+        display: none;
+    }
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.pos-section {
+    direction: rtl;
+}
+
+.sheet {
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    page-break-after: always;
+}
+
+
+/** Paper sizes **/
+
+.A3 .sheet {
+    width: 297mm;
+    height: 419mm;
+}
+
+.hideMeInPrint {
+    display: none;
+}
+
+.A3.landscape .sheet {
+    width: 420mm;
+    height: 296mm;
+}
+
+.A4 .sheet {
+    width: 210mm;
+    height: 296mm;
+}
+
+.A4.landscape .sheet {
+    width: 297mm;
+    height: 209mm;
+}
+
+.A5 .sheet {
+    width: 148mm;
+    height: 209mm;
+}
+
+.A5.landscape .sheet {
+    width: 210mm;
+    height: 147mm;
+}
+
+.letter .sheet {
+    width: 216mm;
+    height: 279mm;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.letter.landscape .sheet {
+    width: 280mm;
+    height: 215mm;
+}
+
+.legal .sheet {
+    width: 216mm;
+    height: 356mm;
+}
+
+.legal.landscape .sheet {
+    width: 357mm;
+    height: 215mm;
+}
+
+
+/** Padding area **/
+
+.sheet.padding-10mm {
+    padding: 10mm;
+}
+
+.sheet.padding-15mm {
+    padding: 15mm;
+}
+
+.sheet.padding-20mm {
+    padding: 20mm;
+}
+
+.sheet.padding-25mm {
+    padding: 25mm;
+}
+
+
+/** For screen preview **/
+
+
+/** Fix for Chrome issue #273306 **/
+
+@media print {
+    .A3.landscape {
+        width: 420mm;
+    }
+    .A3,
+    .A4.landscape {
+        width: 297mm;
+    }
+    .A4,
+    .A5.landscape {
+        width: 210mm;
+    }
+    .A5 {
+        width: 148mm;
+    }
+    .letter,
+    .legal {
+        width: 216mm;
+    }
+    .letter.landscape {
+        width: 280mm;
+    }
+    .legal.landscape {
+        width: 357mm;
+    }
+}
+
+.pos-section {
+    width: 72mm;
+}
+
+
+/* sheet size */
+
+@media print {
+    .pos-section {
+        width: 72mm;
+    }
+    table {
+        width: 100%;
+    }
+}
+
+
+/* fix for Chrome */
