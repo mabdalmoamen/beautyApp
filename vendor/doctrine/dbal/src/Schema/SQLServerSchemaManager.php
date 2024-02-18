@@ -133,16 +133,8 @@ SQL,
 
         switch ($dbType) {
             case 'nchar':
-            case 'ntext':
-                // Unicode data requires 2 bytes per character
-                $length /= 2;
-                break;
-
             case 'nvarchar':
-                if ($length === -1) {
-                    break;
-                }
-
+            case 'ntext':
                 // Unicode data requires 2 bytes per character
                 $length /= 2;
                 break;
