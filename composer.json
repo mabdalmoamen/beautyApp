@@ -22,7 +22,7 @@
         "mariuzzo/laravel-js-localization": "^1.8",
         "spatie/laravel-backup": "^6.16",
         "twilio/sdk": "^7.2",
-        "tymon/jwt-auth": "^1.0",
+        "tymon/jwt-auth": "dev-develop",
         "yajra/laravel-datatables-buttons": "^4.13",
         "yajra/laravel-datatables-oracle": "^9.21"
     },
