@@ -8,3 +8,10 @@ ADD
 ALTER TABLE `mixins_info`
 ADD
     COLUMN `mixins_background` VARCHAR(255) NULL AFTER `bill_lang`;
+
+
+    ALTER TABLE `mixins_info`
+ADD COLUMN `must_insert_worker` TINYINT(1) NULL DEFAULT 1 AFTER `mixins_background`;
+
+ALTER TABLE `mixins_info`
+ADD COLUMN `is_for_women` TINYINT(1) NULL DEFAULT 1 AFTER `must_insert_worker`;
